@@ -1,5 +1,47 @@
 [
   {
+    "id": "W2081124617",
+    "title": "Fairness in Simple Bargaining Experiments",
+    "authors": [
+      "Robert Forsythe",
+      "Jo\u00ebl L. Horowitz",
+      "N. E. Savin",
+      "Mart\u00edn Sefton"
+    ],
+    "year": 1994,
+    "journal": "Games and Economic Behavior",
+    "doi_or_url": "https://doi.org/10.1006/game.1994.1021",
+    "citation_count": 2369,
+    "is_high_impact": false,
+    "open_access": false,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2157228429",
+    "title": "Third-party punishment and social norms",
+    "authors": [
+      "Ernst Fehr",
+      "Urs Fischbacher"
+    ],
+    "year": 2004,
+    "journal": "Evolution and Human Behavior",
+    "doi_or_url": "https://doi.org/10.1016/s1090-5138(04)00005-4",
+    "citation_count": 2274,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
     "id": "W3121550950",
     "title": "Individual and Corporate Social Responsibility",
     "authors": [
@@ -9,7 +51,28 @@
     "year": 2009,
     "journal": "Economica",
     "doi_or_url": "https://doi.org/10.1111/j.1468-0335.2009.00843.x",
-    "citation_count": 2141,
+    "citation_count": 2142,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2108614304",
+    "title": "Institutions as the Fundamental Cause of Long-Run Growth",
+    "authors": [
+      "Daron Acemo\u011flu",
+      "Simon Johnson",
+      "James A. Robinson"
+    ],
+    "year": 2004,
+    "journal": "Unknown",
+    "doi_or_url": "https://doi.org/10.3386/w10481",
+    "citation_count": 2030,
     "is_high_impact": false,
     "open_access": true,
     "used_for": [
@@ -40,6 +103,25 @@
     "journal": "Behavioral and Brain Sciences",
     "doi_or_url": "https://doi.org/10.1017/s0140525x05000142",
     "citation_count": 1892,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2042005398",
+    "title": "''Bargaining'' and Gender Relations: Within and Beyond the Household",
+    "authors": [
+      "Bina Agarwal"
+    ],
+    "year": 1997,
+    "journal": "Feminist Economics",
+    "doi_or_url": "https://doi.org/10.1080/135457097338799",
+    "citation_count": 1597,
     "is_high_impact": false,
     "open_access": true,
     "used_for": [
@@ -91,6 +173,86 @@
     "notes": ""
   },
   {
+    "id": "W2128769827",
+    "title": "Anomalies: Ultimatums, Dictators and Manners",
+    "authors": [
+      "Colin F. Camerer",
+      "Richard H. Thaler"
+    ],
+    "year": 1995,
+    "journal": "The Journal of Economic Perspectives",
+    "doi_or_url": "https://doi.org/10.1257/jep.9.2.209",
+    "citation_count": 1342,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2143135888",
+    "title": "God Is Watching You",
+    "authors": [
+      "Azim Shariff",
+      "Ara Norenzayan"
+    ],
+    "year": 2007,
+    "journal": "Psychological Science",
+    "doi_or_url": "https://doi.org/10.1111/j.1467-9280.2007.01983.x",
+    "citation_count": 1120,
+    "is_high_impact": true,
+    "open_access": false,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2044237036",
+    "title": "Nobody's watching?",
+    "authors": [
+      "Kevin J. Haley",
+      "Daniel M. T. Fessler"
+    ],
+    "year": 2005,
+    "journal": "Evolution and Human Behavior",
+    "doi_or_url": "https://doi.org/10.1016/j.evolhumbehav.2005.01.002",
+    "citation_count": 1056,
+    "is_high_impact": false,
+    "open_access": false,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W3125258780",
+    "title": "IDENTIFYING SOCIAL NORMS USING COORDINATION GAMES: WHY DOES DICTATOR GAME SHARING VARY?",
+    "authors": [
+      "Erin L. Krupka",
+      "Roberto A. Weber"
+    ],
+    "year": 2013,
+    "journal": "Journal of the European Economic Association",
+    "doi_or_url": "https://doi.org/10.1111/jeea.12006",
+    "citation_count": 982,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
     "id": "W2117398432",
     "title": "From Homo Economicus to Homo Sapiens",
     "authors": [
@@ -100,6 +262,46 @@
     "journal": "The Journal of Economic Perspectives",
     "doi_or_url": "https://doi.org/10.1257/jep.14.1.133",
     "citation_count": 901,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2168660565",
+    "title": "Hardnose the Dictator",
+    "authors": [
+      "Todd L. Cherry",
+      "Peter Frykblom",
+      "Jason F. Shogren"
+    ],
+    "year": 2002,
+    "journal": "American Economic Review",
+    "doi_or_url": "https://doi.org/10.1257/00028280260344740",
+    "citation_count": 895,
+    "is_high_impact": false,
+    "open_access": false,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2127267774",
+    "title": "Autocratic Audience Costs: Regime Type and Signaling Resolve",
+    "authors": [
+      "Jessica Weeks"
+    ],
+    "year": 2008,
+    "journal": "International Organization",
+    "doi_or_url": "https://doi.org/10.1017/s0020818308080028",
+    "citation_count": 800,
     "is_high_impact": false,
     "open_access": true,
     "used_for": [
@@ -129,6 +331,25 @@
     "notes": ""
   },
   {
+    "id": "W2038233683",
+    "title": "Understanding institutional change: Fast-moving and slow-moving institutions",
+    "authors": [
+      "G\u00e9rard Roland"
+    ],
+    "year": 2004,
+    "journal": "Studies in Comparative International Development",
+    "doi_or_url": "https://doi.org/10.1007/bf02686330",
+    "citation_count": 754,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
     "id": "W4238212557",
     "title": "Information Avoidance",
     "authors": [
@@ -139,7 +360,7 @@
     "year": 2017,
     "journal": "Journal of Economic Literature",
     "doi_or_url": "https://doi.org/10.1257/jel.20151245",
-    "citation_count": 750,
+    "citation_count": 754,
     "is_high_impact": false,
     "open_access": true,
     "used_for": [
@@ -175,6 +396,117 @@
     "notes": ""
   },
   {
+    "id": "W2169411968",
+    "title": "The strategy versus the direct-response method: a first survey of experimental comparisons",
+    "authors": [
+      "Jordi Brandts",
+      "Gary Charness"
+    ],
+    "year": 2011,
+    "journal": "Experimental Economics",
+    "doi_or_url": "https://doi.org/10.1007/s10683-011-9272-x",
+    "citation_count": 712,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2069904071",
+    "title": "What Has Economics to Say About Racial Discrimination?",
+    "authors": [
+      "Kenneth J. Arrow"
+    ],
+    "year": 1998,
+    "journal": "The Journal of Economic Perspectives",
+    "doi_or_url": "https://doi.org/10.1257/jep.12.2.91",
+    "citation_count": 681,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2147174665",
+    "title": "What you don\u2019t know won\u2019t hurt me: Costly (but quiet) exit in dictator games",
+    "authors": [
+      "Jason Dana",
+      "Daylian M. Cain",
+      "Robyn M. Dawes"
+    ],
+    "year": 2005,
+    "journal": "Organizational Behavior and Human Decision Processes",
+    "doi_or_url": "https://doi.org/10.1016/j.obhdp.2005.10.001",
+    "citation_count": 681,
+    "is_high_impact": false,
+    "open_access": false,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W3123674119",
+    "title": "Do Democracies Have Different Public Policies than Nondemocracies?",
+    "authors": [
+      "Casey B. Mulligan",
+      "Ricard Gil",
+      "Xavier Sala-i-Mart\u00edn"
+    ],
+    "year": 2004,
+    "journal": "The Journal of Economic Perspectives",
+    "doi_or_url": "https://doi.org/10.1257/089533004773563430",
+    "citation_count": 667,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2155058526",
+    "title": "Cultural group selection plays an essential role in explaining human cooperation: A sketch of the evidence",
+    "authors": [
+      "Peter J. Richerson",
+      "Ryan Baldini",
+      "Adrian V. Bell",
+      "Kathryn Demps",
+      "Karl Frost",
+      "Vicken Hillis",
+      "Sarah Mathew",
+      "Emily K. Newton",
+      "Nicole Naar",
+      "Lesley Newson",
+      "Cody T. Ross",
+      "Paul E. Smaldino"
+    ],
+    "year": 2014,
+    "journal": "Behavioral and Brain Sciences",
+    "doi_or_url": "https://doi.org/10.1017/s0140525x1400106x",
+    "citation_count": 647,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
     "id": "W3125705609",
     "title": "On The Economics and Biology of Trust",
     "authors": [
@@ -186,6 +518,27 @@
     "citation_count": 641,
     "is_high_impact": false,
     "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2158280922",
+    "title": "Children's altruistic behavior in the dictator game",
+    "authors": [
+      "Joyce F. Benenson",
+      "Joanna Pascoe",
+      "Nicola Radmore"
+    ],
+    "year": 2007,
+    "journal": "Evolution and Human Behavior",
+    "doi_or_url": "https://doi.org/10.1016/j.evolhumbehav.2006.10.003",
+    "citation_count": 612,
+    "is_high_impact": false,
+    "open_access": false,
     "used_for": [
       "task_workflow",
       "timing_parameters"
@@ -241,6 +594,26 @@
     "notes": ""
   },
   {
+    "id": "W3121554487",
+    "title": "What's in a name? Anonymity and social distance in dictator and ultimatum games",
+    "authors": [
+      "Gary Charness",
+      "Uri Gneezy"
+    ],
+    "year": 2008,
+    "journal": "Journal of Economic Behavior & Organization",
+    "doi_or_url": "https://doi.org/10.1016/j.jebo.2008.03.001",
+    "citation_count": 558,
+    "is_high_impact": false,
+    "open_access": false,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
     "id": "W2169887110",
     "title": "Strengthening State Capabilities: The Role of Financial Incentives in the Call to Public Service*",
     "authors": [
@@ -262,6 +635,119 @@
     "notes": ""
   },
   {
+    "id": "W2013310165",
+    "title": "Social Distance and Other-Regarding Behavior in Dictator Games: Comment",
+    "authors": [
+      "Iris Bohnet",
+      "Bruno S. Frey"
+    ],
+    "year": 1999,
+    "journal": "American Economic Review",
+    "doi_or_url": "https://doi.org/10.1257/aer.89.1.335",
+    "citation_count": 521,
+    "is_high_impact": false,
+    "open_access": false,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1487847032",
+    "title": "Iterated Dominance and Iterated Best-Response in Experimental P-Beauty Contests",
+    "authors": [
+      "Teck\u2010Hua Ho",
+      "Colin F. Camerer",
+      "Keith Weigelt"
+    ],
+    "year": 1996,
+    "journal": "Unknown",
+    "doi_or_url": "https://doi.org/10.7907/2wqmd-n6102",
+    "citation_count": 488,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1521758236",
+    "title": "ISSUES IN MULTI AGENT RESOURCE ALLOCATION",
+    "authors": [
+      "Yann Chevaleyre",
+      "Paul E. Dunne",
+      "Ulle Endriss",
+      "J\u00e9r\u00f4me Lang",
+      "Michel Lema\u0131\u0302tre",
+      "Nicolas Maudet",
+      "Juli\u00e1n Padget",
+      "Steven C. Phelps",
+      "Juan A. Rodr\u00edguez-Aguilar",
+      "Paulo Baltarejo Sousa"
+    ],
+    "year": 2005,
+    "journal": "DIGITAL.CSIC (Spanish National Research Council (CSIC))",
+    "doi_or_url": "https://openalex.org/W1521758236",
+    "citation_count": 479,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2067879790",
+    "title": "Dictator game giving: Rules of fairness versus acts of kindness",
+    "authors": [
+      "Gary E. Bolton",
+      "Elena Katok",
+      "Rami Zwick"
+    ],
+    "year": 1998,
+    "journal": "International Journal of Game Theory",
+    "doi_or_url": "https://doi.org/10.1007/s001820050072",
+    "citation_count": 477,
+    "is_high_impact": false,
+    "open_access": false,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W4220863497",
+    "title": "Quo vadis artificial intelligence?",
+    "authors": [
+      "Yuchen Jiang",
+      "Xiang Li",
+      "Hao Luo",
+      "Shen Yin",
+      "Okyay Kaynak"
+    ],
+    "year": 2022,
+    "journal": "Discover Artificial Intelligence",
+    "doi_or_url": "https://doi.org/10.1007/s44163-022-00022-8",
+    "citation_count": 474,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
     "id": "W1965699991",
     "title": "I Should but I Won\u2019t: Why Young Children Endorse Norms of Fair Sharing but Do Not Follow Them",
     "authors": [
@@ -272,7 +758,66 @@
     "year": 2013,
     "journal": "PLoS ONE",
     "doi_or_url": "https://doi.org/10.1371/journal.pone.0059510",
-    "citation_count": 466,
+    "citation_count": 468,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2140493897",
+    "title": "Analyzing collective action",
+    "authors": [
+      "\u042d\u043b\u0438\u043d\u043e\u0440 \u041e\u0441\u0442\u0440\u043e\u043c"
+    ],
+    "year": 2010,
+    "journal": "Agricultural Economics",
+    "doi_or_url": "https://doi.org/10.1111/j.1574-0862.2010.00497.x",
+    "citation_count": 457,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2132679435",
+    "title": "International Actors on the Domestic Scene: Membership Conditionality and Socialization by International Institutions",
+    "authors": [
+      "Judith G. Kelley"
+    ],
+    "year": 2004,
+    "journal": "International Organization",
+    "doi_or_url": "https://doi.org/10.1017/s0020818304583017",
+    "citation_count": 453,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W3124682720",
+    "title": "Humans display a \u2018cooperative phenotype\u2019 that is domain general and temporally stable",
+    "authors": [
+      "Alexander Peysakhovich",
+      "Martin A. Nowak",
+      "David G. Rand"
+    ],
+    "year": 2014,
+    "journal": "Nature Communications",
+    "doi_or_url": "https://doi.org/10.1038/ncomms5939",
+    "citation_count": 445,
     "is_high_impact": false,
     "open_access": true,
     "used_for": [
@@ -304,6 +849,46 @@
     "notes": ""
   },
   {
+    "id": "W2116598522",
+    "title": "The evolution of misbelief",
+    "authors": [
+      "Ryan McKay",
+      "Daniel C. Dennett"
+    ],
+    "year": 2009,
+    "journal": "Behavioral and Brain Sciences",
+    "doi_or_url": "https://doi.org/10.1017/s0140525x09990975",
+    "citation_count": 434,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W4243546566",
+    "title": "Informational Autocrats",
+    "authors": [
+      "Sergei Guriev",
+      "Daniel Treisman"
+    ],
+    "year": 2019,
+    "journal": "The Journal of Economic Perspectives",
+    "doi_or_url": "https://doi.org/10.1257/jep.33.4.100",
+    "citation_count": 434,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
     "id": "W3155804760",
     "title": "Get Real! Individuals Prefer More Sustainable Investments",
     "authors": [
@@ -315,6 +900,26 @@
     "journal": "Review of Financial Studies",
     "doi_or_url": "https://doi.org/10.1093/rfs/hhab037",
     "citation_count": 433,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2145710484",
+    "title": "Using Noninvasive Wearable Computers to Recognize Human Emotions from Physiological Signals",
+    "authors": [
+      "Christine Lisetti",
+      "Fatma Nasoz"
+    ],
+    "year": 2004,
+    "journal": "EURASIP Journal on Advances in Signal Processing",
+    "doi_or_url": "https://doi.org/10.1155/s1110865704406192",
+    "citation_count": 428,
     "is_high_impact": false,
     "open_access": true,
     "used_for": [
@@ -347,6 +952,124 @@
     "notes": ""
   },
   {
+    "id": "W2104429403",
+    "title": "Why was the Arab World Poised for Revolution? Schooling, Economic Opportunities, and the Arab Spring",
+    "authors": [
+      "Filipe Campante",
+      "Davin Chor"
+    ],
+    "year": 2012,
+    "journal": "The Journal of Economic Perspectives",
+    "doi_or_url": "https://doi.org/10.1257/jep.26.2.167",
+    "citation_count": 409,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W3123960376",
+    "title": "More Order with Less Law: On Contract Enforcement, Trust, and Crowding",
+    "authors": [
+      "Iris Bohnet",
+      "Bruno S. Frey",
+      "Steffen Huck"
+    ],
+    "year": 2001,
+    "journal": "American Political Science Review",
+    "doi_or_url": "https://doi.org/10.1017/s0003055401000211",
+    "citation_count": 396,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2100637225",
+    "title": "Fairness and Retaliation: The Economics of Reciprocity",
+    "authors": [
+      "Ernst Fehr",
+      "Simon G\u00e4chter"
+    ],
+    "year": 2000,
+    "journal": "SSRN Electronic Journal",
+    "doi_or_url": "https://doi.org/10.2139/ssrn.229149",
+    "citation_count": 396,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W4214820194",
+    "title": "Vote-Buying and Reciprocity",
+    "authors": [
+      "Frederico Finan",
+      "Laura Schechter"
+    ],
+    "year": 2012,
+    "journal": "Econometrica",
+    "doi_or_url": "https://doi.org/10.3982/ecta9035",
+    "citation_count": 395,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1599051804",
+    "title": "The Encyclopedia of public choice",
+    "authors": [],
+    "year": 2004,
+    "journal": "Choice Reviews Online",
+    "doi_or_url": "https://doi.org/10.5860/choice.41-5661",
+    "citation_count": 386,
+    "is_high_impact": false,
+    "open_access": false,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W3124020986",
+    "title": "The Case Against Patents",
+    "authors": [
+      "Michele Boldr\u00edn",
+      "David K. Levine"
+    ],
+    "year": 2013,
+    "journal": "The Journal of Economic Perspectives",
+    "doi_or_url": "https://doi.org/10.1257/jep.27.1.3",
+    "citation_count": 385,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
     "id": "W2013068029",
     "title": "Sorting in Experiments with Application to Social Preferences",
     "authors": [
@@ -360,6 +1083,65 @@
     "citation_count": 374,
     "is_high_impact": false,
     "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2070791337",
+    "title": "The Market for Charitable Giving",
+    "authors": [
+      "John A. List"
+    ],
+    "year": 2011,
+    "journal": "The Journal of Economic Perspectives",
+    "doi_or_url": "https://doi.org/10.1257/jep.25.2.157",
+    "citation_count": 374,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2490168127",
+    "title": "Diversity in the Economics Profession: A New Attack on an Old Problem",
+    "authors": [
+      "Amanda Bayer",
+      "Cecilia Elena Rouse"
+    ],
+    "year": 2016,
+    "journal": "The Journal of Economic Perspectives",
+    "doi_or_url": "https://doi.org/10.1257/jep.30.4.221",
+    "citation_count": 374,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2162841669",
+    "title": "Why volunteer? Evidence on the role of altruism, image, and incentives",
+    "authors": [
+      "Jeffrey P. Carpenter",
+      "Caitlin Knowles Myers"
+    ],
+    "year": 2010,
+    "journal": "Journal of Public Economics",
+    "doi_or_url": "https://doi.org/10.1016/j.jpubeco.2010.07.007",
+    "citation_count": 370,
+    "is_high_impact": false,
+    "open_access": false,
     "used_for": [
       "task_workflow",
       "timing_parameters"
@@ -390,6 +1172,242 @@
     "notes": ""
   },
   {
+    "id": "W2562279243",
+    "title": "Beliefs about Gender",
+    "authors": [
+      "Pedro Bordalo",
+      "Katherine Coffman",
+      "Nicola Gennaioli",
+      "Andrei Shleifer"
+    ],
+    "year": 2019,
+    "journal": "American Economic Review",
+    "doi_or_url": "https://doi.org/10.1257/aer.20170007",
+    "citation_count": 361,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W3124416153",
+    "title": "Economic Games on the Internet: The Effect of $1 Stakes",
+    "authors": [
+      "Ofra Amir",
+      "David G. Rand",
+      "Kobi Gal"
+    ],
+    "year": 2012,
+    "journal": "PLoS ONE",
+    "doi_or_url": "https://doi.org/10.1371/journal.pone.0031461",
+    "citation_count": 350,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1970275528",
+    "title": "How Foreign Aid Can Foster Democratization in Authoritarian Regimes",
+    "authors": [
+      "Joseph Wright"
+    ],
+    "year": 2009,
+    "journal": "American Journal of Political Science",
+    "doi_or_url": "https://doi.org/10.1111/j.1540-5907.2009.00386.x",
+    "citation_count": 350,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1266689874",
+    "title": "INTRAHOUSEHOLD ALLOCATION AND GENDER RELATIONS: NEW EMPIRICAL EVIDENCE FROM FOUR DEVELOPING COUNTRIES",
+    "authors": [
+      "Agnes Quisumbing",
+      "John A. Maluccio",
+      "Quisumbing, Agnes R.",
+      "Maluccio, John A."
+    ],
+    "year": 2000,
+    "journal": "Unknown",
+    "doi_or_url": "https://doi.org/10.22004/ag.econ.16460",
+    "citation_count": 348,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2768095095",
+    "title": "Cooperation and the evolution of hunter-gatherer storytelling",
+    "authors": [
+      "Daniel Major\u2010Smith",
+      "Philip Schlaepfer",
+      "Katie Major-Smith",
+      "Mark Dyble",
+      "Abigail E. Page",
+      "James Thompson",
+      "Nikhil Chaudhary",
+      "G\u00fcl Deniz Salal\u03b9",
+      "Ruth Mace",
+      "Leonora H. Astete",
+      "Marilyn Ngales",
+      "Lucio Vinicius"
+    ],
+    "year": 2017,
+    "journal": "Nature Communications",
+    "doi_or_url": "https://doi.org/10.1038/s41467-017-02036-8",
+    "citation_count": 338,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2133959146",
+    "title": "Economics Education and Greed",
+    "authors": [
+      "Long Wang",
+      "Deepak Malhotra",
+      "J. Keith Murnighan"
+    ],
+    "year": 2011,
+    "journal": "Academy of Management Learning and Education",
+    "doi_or_url": "https://doi.org/10.5465/amle.2009.0185",
+    "citation_count": 335,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W3125654867",
+    "title": "Juking the Stats? Authoritarian Information Problems in China",
+    "authors": [
+      "Jeremy Wallace"
+    ],
+    "year": 2014,
+    "journal": "British Journal of Political Science",
+    "doi_or_url": "https://doi.org/10.1017/s0007123414000106",
+    "citation_count": 333,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1968395121",
+    "title": "Harm to others outweighs harm to self in moral decision making",
+    "authors": [
+      "Molly J. Crockett",
+      "Zeb Kurth\u2010Nelson",
+      "Jenifer Z. Siegel",
+      "Peter Dayan",
+      "Raymond J. Dolan"
+    ],
+    "year": 2014,
+    "journal": "Proceedings of the National Academy of Sciences",
+    "doi_or_url": "https://doi.org/10.1073/pnas.1408988111",
+    "citation_count": 329,
+    "is_high_impact": true,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W3123631306",
+    "title": "How (Not) to measure institutions",
+    "authors": [
+      "Stefan Voigt"
+    ],
+    "year": 2012,
+    "journal": "Journal of Institutional Economics",
+    "doi_or_url": "https://doi.org/10.1017/s1744137412000148",
+    "citation_count": 325,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2917655555",
+    "title": "The Power of the Street: Evidence from Egypt\u2019s Arab Spring",
+    "authors": [
+      "Daron Acemo\u011flu",
+      "Tarek A. Hassan",
+      "Ahmed Tahoun"
+    ],
+    "year": 2017,
+    "journal": "Review of Financial Studies",
+    "doi_or_url": "https://doi.org/10.1093/rfs/hhx086",
+    "citation_count": 322,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1973650593",
+    "title": "Global Administrative Law: The Quest for Principles and Values",
+    "authors": [
+      "Carol Harlow"
+    ],
+    "year": 2006,
+    "journal": "European Journal of International Law",
+    "doi_or_url": "https://doi.org/10.1093/ejil/chi158",
+    "citation_count": 321,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
     "id": "W2101590994",
     "title": "The Economics of Fairness, Reciprocity and Altruism - Experimental Evidence and New Theories",
     "authors": [
@@ -410,6 +1428,241 @@
     "notes": ""
   },
   {
+    "id": "W2117908720",
+    "title": "Utilitarian moral judgment in psychopathy",
+    "authors": [
+      "Michael Koenigs",
+      "Michael Kruepke",
+      "Joshua D. Zeier",
+      "Joseph P. Newman"
+    ],
+    "year": 2011,
+    "journal": "Social Cognitive and Affective Neuroscience",
+    "doi_or_url": "https://doi.org/10.1093/scan/nsr048",
+    "citation_count": 318,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2018277595",
+    "title": "An exploratory study into the effects of extraordinary nature on emotions, mood, and prosociality",
+    "authors": [
+      "Yannick Joye",
+      "Jan Willem Bolderdijk"
+    ],
+    "year": 2015,
+    "journal": "Frontiers in Psychology",
+    "doi_or_url": "https://doi.org/10.3389/fpsyg.2014.01577",
+    "citation_count": 317,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2037261486",
+    "title": "Are Two Heads Better Than One? Monetary Policy by Committee",
+    "authors": [
+      "Alan S. Blinder",
+      "John Morgan"
+    ],
+    "year": 2005,
+    "journal": "Journal of money credit and banking",
+    "doi_or_url": "https://doi.org/10.1353/mcb.2005.0048",
+    "citation_count": 316,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2343814767",
+    "title": "Decoding the Charitable Brain: Empathy, Perspective Taking, and Attention Shifts Differentially Predict Altruistic Giving",
+    "authors": [
+      "Anita Tusche",
+      "Anne B\u00f6ckler",
+      "Philipp Kanske",
+      "Fynn\u2010Mathis Trautwein",
+      "Tania Singer"
+    ],
+    "year": 2016,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.3392-15.2016",
+    "citation_count": 312,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2236311326",
+    "title": "Intuition, deliberation, and the evolution of cooperation",
+    "authors": [
+      "Adam Bear",
+      "David G. Rand"
+    ],
+    "year": 2016,
+    "journal": "Proceedings of the National Academy of Sciences",
+    "doi_or_url": "https://doi.org/10.1073/pnas.1517780113",
+    "citation_count": 308,
+    "is_high_impact": true,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W3122122967",
+    "title": "Enforcement of contribution norms in public good games with heterogeneous populations",
+    "authors": [
+      "Ernesto Reuben",
+      "Arno Riedl"
+    ],
+    "year": 2012,
+    "journal": "Games and Economic Behavior",
+    "doi_or_url": "https://doi.org/10.1016/j.geb.2012.10.001",
+    "citation_count": 307,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2053269151",
+    "title": "Engineering altruism: a theoretical and experimental investigation of anonymity and gift giving",
+    "authors": [
+      "Terence C. Burnham"
+    ],
+    "year": 2002,
+    "journal": "Journal of Economic Behavior & Organization",
+    "doi_or_url": "https://doi.org/10.1016/s0167-2681(02)00044-6",
+    "citation_count": 305,
+    "is_high_impact": false,
+    "open_access": false,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2029397165",
+    "title": "Explicit vs. tacit collusion\u2014The impact of communication in oligopoly experiments",
+    "authors": [
+      "Miguel A. Fonseca",
+      "Hans\u2010Theo Normann"
+    ],
+    "year": 2012,
+    "journal": "European Economic Review",
+    "doi_or_url": "https://doi.org/10.1016/j.euroecorev.2012.09.002",
+    "citation_count": 304,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2105123723",
+    "title": "Static network structure can stabilize human cooperation",
+    "authors": [
+      "David G. Rand",
+      "Martin A. Nowak",
+      "James H. Fowler",
+      "Nicholas A. Christakis"
+    ],
+    "year": 2014,
+    "journal": "Proceedings of the National Academy of Sciences",
+    "doi_or_url": "https://doi.org/10.1073/pnas.1400406111",
+    "citation_count": 297,
+    "is_high_impact": true,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2131072523",
+    "title": "Individual differences in allocation of funds in the dictator game associated with length of the arginine vasopressin 1a receptor RS3 promoter region and correlation between RS3 length and hippocampal mRNA",
+    "authors": [
+      "Ariel Knafo\u2010Noam",
+      "Salomon Israel",
+      "Ariel Darvasi",
+      "Rachel Bachner\u2010Melman",
+      "Florina Uzefovsky",
+      "Lior Cohen",
+      "Esti Feldman",
+      "Elad Lerer",
+      "Efrat Laiba",
+      "Yael Raz",
+      "Lubov Nemanov",
+      "Inga Gritsenko"
+    ],
+    "year": 2007,
+    "journal": "Genes Brain & Behavior",
+    "doi_or_url": "https://doi.org/10.1111/j.1601-183x.2007.00341.x",
+    "citation_count": 297,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2142246796",
+    "title": "Interdependent and Domestic Foundations of Policy Change: The Diffusion of Pension Privatization Around the World",
+    "authors": [
+      "Sarah M. Brooks"
+    ],
+    "year": 2005,
+    "journal": "International Studies Quarterly",
+    "doi_or_url": "https://doi.org/10.1111/j.0020-8833.2005.00345.x",
+    "citation_count": 296,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
     "id": "W3122541898",
     "title": "Self-Image and Willful Ignorance in Social Decisions",
     "authors": [
@@ -420,6 +1673,254 @@
     "journal": "Journal of the European Economic Association",
     "doi_or_url": "https://doi.org/10.1093/jeea/jvw001",
     "citation_count": 295,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2795668280",
+    "title": "Can Social Contact Reduce Prejudice and Discrimination? Evidence from a Field Experiment in Nigeria",
+    "authors": [
+      "Alexandra Scacco",
+      "Shana S. Warren"
+    ],
+    "year": 2018,
+    "journal": "American Political Science Review",
+    "doi_or_url": "https://doi.org/10.1017/s0003055418000151",
+    "citation_count": 293,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W3022927788",
+    "title": "Cycling to School: Increasing Secondary School Enrollment for Girls in India",
+    "authors": [
+      "Karthik Muralidharan",
+      "Nishith Prakash"
+    ],
+    "year": 2017,
+    "journal": "American Economic Journal Applied Economics",
+    "doi_or_url": "https://doi.org/10.1257/app.20160004",
+    "citation_count": 292,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2153005122",
+    "title": "Social Influence in the Sequential Dictator Game",
+    "authors": [
+      "Timothy N. Cason",
+      "Vai\u2010Lam Mui"
+    ],
+    "year": 1998,
+    "journal": "Journal of Mathematical Psychology",
+    "doi_or_url": "https://doi.org/10.1006/jmps.1998.1213",
+    "citation_count": 292,
+    "is_high_impact": false,
+    "open_access": false,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2101954211",
+    "title": "Consequences of Regret Aversion 2: Additional Evidence for Effects of Feedback on Decision Making",
+    "authors": [
+      "Marcel Zeelenberg",
+      "Jane Beattie"
+    ],
+    "year": 1997,
+    "journal": "Organizational Behavior and Human Decision Processes",
+    "doi_or_url": "https://doi.org/10.1006/obhd.1997.2730",
+    "citation_count": 290,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W4298055126",
+    "title": "The Economics and Psychology of Personality Traits",
+    "authors": [
+      "Lex Borghans",
+      "Angela Duckworth",
+      "James J. Heckman",
+      "Bas ter Weel"
+    ],
+    "year": 2008,
+    "journal": "SSRN Electronic Journal",
+    "doi_or_url": "https://doi.org/10.2139/ssrn.1135909",
+    "citation_count": 289,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2060143509",
+    "title": "Why Economists Should Conduct Field Experiments and 14 Tips for Pulling One Off",
+    "authors": [
+      "John A. List"
+    ],
+    "year": 2011,
+    "journal": "The Journal of Economic Perspectives",
+    "doi_or_url": "https://doi.org/10.1257/jep.25.3.3",
+    "citation_count": 289,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2560821290",
+    "title": "The Economics and Psychology of Personality Traits",
+    "authors": [
+      "Lex Borghans",
+      "Angela Duckworth",
+      "James J. Heckman",
+      "Bas ter Weel"
+    ],
+    "year": 2008,
+    "journal": "The Journal of Human Resources",
+    "doi_or_url": "https://doi.org/10.3368/jhr.43.4.972",
+    "citation_count": 287,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2135977259",
+    "title": "Five-Year Olds, but Not Chimpanzees, Attempt to Manage Their Reputations",
+    "authors": [
+      "Jan M. Engelmann",
+      "Esther Herrmann",
+      "Michael Tomasello"
+    ],
+    "year": 2012,
+    "journal": "PLoS ONE",
+    "doi_or_url": "https://doi.org/10.1371/journal.pone.0048433",
+    "citation_count": 283,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2159558768",
+    "title": "Powering up with indirect reciprocity in a large-scale field experiment",
+    "authors": [
+      "Erez Yoeli",
+      "Moshe Hoffman",
+      "David G. Rand",
+      "Martin A. Nowak"
+    ],
+    "year": 2013,
+    "journal": "Proceedings of the National Academy of Sciences",
+    "doi_or_url": "https://doi.org/10.1073/pnas.1301210110",
+    "citation_count": 281,
+    "is_high_impact": true,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2135803139",
+    "title": "Handcuffs for the Grabbing Hand? Media Capture and Government Accountability",
+    "authors": [
+      "Timothy Besley",
+      "Andrea Prat"
+    ],
+    "year": 2006,
+    "journal": "American Economic Review",
+    "doi_or_url": "https://doi.org/10.1257/aer.96.3.720",
+    "citation_count": 280,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2061757045",
+    "title": "Testing guilt aversion",
+    "authors": [
+      "Tore Ellingsen",
+      "Magnus Johannesson",
+      "Sigve Tj\u00f8tta",
+      "Gaute Torsvik"
+    ],
+    "year": 2009,
+    "journal": "Games and Economic Behavior",
+    "doi_or_url": "https://doi.org/10.1016/j.geb.2009.04.021",
+    "citation_count": 279,
+    "is_high_impact": false,
+    "open_access": false,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2559876587",
+    "title": "The invisible politics of Bitcoin: governance crisis of a decentralised infrastructure",
+    "authors": [
+      "Primavera De Filippi",
+      "Benjamin Loveluck"
+    ],
+    "year": 2016,
+    "journal": "Internet Policy Review",
+    "doi_or_url": "https://doi.org/10.14763/2016.3.427",
+    "citation_count": 278,
     "is_high_impact": false,
     "open_access": true,
     "used_for": [
@@ -459,6 +1960,321 @@
     "notes": ""
   },
   {
+    "id": "W2165252327",
+    "title": "Democracy, Law, and Comparative Politics",
+    "authors": [
+      "Guillermo O\u2019Donnell"
+    ],
+    "year": 2001,
+    "journal": "Studies in Comparative International Development",
+    "doi_or_url": "https://doi.org/10.1007/bf02687583",
+    "citation_count": 273,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1675065135",
+    "title": "Shadow Economies Around the World: What Do We Know?",
+    "authors": [
+      "Friedrich Schneider",
+      "Robert Klinglmair"
+    ],
+    "year": 2004,
+    "journal": "SSRN Electronic Journal",
+    "doi_or_url": "https://doi.org/10.2139/ssrn.518526",
+    "citation_count": 268,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1993398954",
+    "title": "Public good provision under dictatorship and democracy",
+    "authors": [
+      "Robert T. Deacon"
+    ],
+    "year": 2009,
+    "journal": "Public Choice",
+    "doi_or_url": "https://doi.org/10.1007/s11127-008-9391-x",
+    "citation_count": 266,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1992420719",
+    "title": "The Dictator Game, Fairness and Ethnicity in Postwar Bosnia",
+    "authors": [
+      "Sam Whitt",
+      "Rick K. Wilson"
+    ],
+    "year": 2007,
+    "journal": "American Journal of Political Science",
+    "doi_or_url": "https://doi.org/10.1111/j.1540-5907.2007.00273.x",
+    "citation_count": 264,
+    "is_high_impact": false,
+    "open_access": false,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2138752334",
+    "title": "Currency value moderates equity preference among young children",
+    "authors": [
+      "Peter Blake",
+      "David G. Rand"
+    ],
+    "year": 2009,
+    "journal": "Evolution and Human Behavior",
+    "doi_or_url": "https://doi.org/10.1016/j.evolhumbehav.2009.06.012",
+    "citation_count": 264,
+    "is_high_impact": false,
+    "open_access": false,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1999155253",
+    "title": "Economic Games Quantify Diminished Sense of Guilt in Patients with Damage to the Prefrontal Cortex",
+    "authors": [
+      "Ian Krajbich",
+      "Ralph Adolphs",
+      "Daniel Tranel",
+      "Natalie L. Denburg",
+      "Colin F. Camerer"
+    ],
+    "year": 2009,
+    "journal": "Journal of Neuroscience",
+    "doi_or_url": "https://doi.org/10.1523/jneurosci.5086-08.2009",
+    "citation_count": 260,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1996866159",
+    "title": "Does Studying Economics Discourage Cooperation? Watch What We Do, Not What We Say or How We Play",
+    "authors": [
+      "Anthony M. Yezer",
+      "Robert S. Goldfarb",
+      "Paul J. Poppen"
+    ],
+    "year": 1996,
+    "journal": "The Journal of Economic Perspectives",
+    "doi_or_url": "https://doi.org/10.1257/jep.10.1.177",
+    "citation_count": 259,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W3122994108",
+    "title": "A Theory of Military Dictatorships",
+    "authors": [
+      "Daron Acemo\u011flu",
+      "Davide Ticchi",
+      "Andrea Vindigni"
+    ],
+    "year": 2009,
+    "journal": "American Economic Journal Macroeconomics",
+    "doi_or_url": "https://doi.org/10.1257/mac.2.1.1",
+    "citation_count": 258,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2260207294",
+    "title": "Experimental subjects are not different",
+    "authors": [
+      "Filippos Exadaktylos",
+      "Antonio M. Esp\u00edn",
+      "Pablo Bra\u00f1as\u2010Garza"
+    ],
+    "year": 2013,
+    "journal": "Scientific Reports",
+    "doi_or_url": "https://doi.org/10.1038/srep01213",
+    "citation_count": 256,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1981602045",
+    "title": "Pillars of cooperation: Honesty\u2013Humility, social value orientations, and economic behavior",
+    "authors": [
+      "Benjamin E. Hilbig",
+      "Ingo Zettler"
+    ],
+    "year": 2009,
+    "journal": "Journal of Research in Personality",
+    "doi_or_url": "https://doi.org/10.1016/j.jrp.2009.01.003",
+    "citation_count": 253,
+    "is_high_impact": false,
+    "open_access": false,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1981253700",
+    "title": "Governance and Growth in Sub-Saharan Africa",
+    "authors": [
+      "Benno J. Ndulu",
+      "Stephen A. O\u2019Connell"
+    ],
+    "year": 1999,
+    "journal": "The Journal of Economic Perspectives",
+    "doi_or_url": "https://doi.org/10.1257/jep.13.3.41",
+    "citation_count": 252,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1969954832",
+    "title": "Testosterone Administration Decreases Generosity in the Ultimatum Game",
+    "authors": [
+      "Paul J. Zak",
+      "Robert Kurzban",
+      "Sheila Ahmadi",
+      "Ronald S. Swerdloff",
+      "Jang Park",
+      "Levan Efremidze",
+      "Karen M. Redwine",
+      "Karla Morgan",
+      "WILLIAM T. MATZNER"
+    ],
+    "year": 2009,
+    "journal": "PLoS ONE",
+    "doi_or_url": "https://doi.org/10.1371/journal.pone.0008330",
+    "citation_count": 250,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2168090696",
+    "title": "Social media and protest mobilization: evidence from the Tunisian revolution",
+    "authors": [
+      "Anita Breuer",
+      "Todd Landman",
+      "Dorothea Farquhar"
+    ],
+    "year": 2014,
+    "journal": "Democratization",
+    "doi_or_url": "https://doi.org/10.1080/13510347.2014.885505",
+    "citation_count": 248,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2888849277",
+    "title": "Virtual reality perspective-taking increases cognitive empathy for specific others",
+    "authors": [
+      "Austin van Loon",
+      "Jeremy N. Bailenson",
+      "Jamil Zaki",
+      "Joshua Bostick",
+      "Robb Willer"
+    ],
+    "year": 2018,
+    "journal": "PLoS ONE",
+    "doi_or_url": "https://doi.org/10.1371/journal.pone.0202442",
+    "citation_count": 248,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2097670884",
+    "title": "Strong Demands and Weak Institutions: The Origins and Evolution of the Democratic Deficit in the Philippines",
+    "authors": [
+      "Paul D. Hutchcroft",
+      "Joel Rocamora"
+    ],
+    "year": 2003,
+    "journal": "Journal of East Asian Studies",
+    "doi_or_url": "https://doi.org/10.1017/s1598240800001363",
+    "citation_count": 247,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
     "id": "W1517495738",
     "title": "A Large Scale Test of the Effect of Social Class on Prosocial Behavior",
     "authors": [
@@ -472,6 +2288,133 @@
     "citation_count": 246,
     "is_high_impact": false,
     "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2149059351",
+    "title": "The watching eyes effect in the Dictator Game: it's not how much you give, it's being seen to give something",
+    "authors": [
+      "Daniel Nettle",
+      "Zoe Harper",
+      "Adam Kidson",
+      "Rosie Stone",
+      "Ian S. Penton\u2010Voak",
+      "Melissa Bateson"
+    ],
+    "year": 2012,
+    "journal": "Evolution and Human Behavior",
+    "doi_or_url": "https://doi.org/10.1016/j.evolhumbehav.2012.08.004",
+    "citation_count": 246,
+    "is_high_impact": false,
+    "open_access": false,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2168413178",
+    "title": "Traditional and Health-Related Philanthropy: The Role of Resources and Personality",
+    "authors": [
+      "Ren\u00e9 Bekkers"
+    ],
+    "year": 2006,
+    "journal": "Social Psychology Quarterly",
+    "doi_or_url": "https://doi.org/10.1177/019027250606900404",
+    "citation_count": 245,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2119960464",
+    "title": "Identifying Social Norms using Coordination Games: Why Does Dictator Game Sharing Vary?",
+    "authors": [
+      "Erin L. Krupka",
+      "Roberto A. Weber"
+    ],
+    "year": 2008,
+    "journal": "SSRN Electronic Journal",
+    "doi_or_url": "https://doi.org/10.2139/ssrn.1310598",
+    "citation_count": 245,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W3123983381",
+    "title": "Contracts as Reference Points\u2014Experimental Evidence",
+    "authors": [
+      "Ernst Fehr",
+      "Oliver Hart",
+      "Christian Zehnder"
+    ],
+    "year": 2011,
+    "journal": "American Economic Review",
+    "doi_or_url": "https://doi.org/10.1257/aer.101.2.493",
+    "citation_count": 245,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W3097856151",
+    "title": "Don\u2019t get it or don\u2019t spread it: comparing self-interested versus prosocial motivations for COVID-19 prevention behaviors",
+    "authors": [
+      "Jillian Jordan",
+      "Erez Yoeli",
+      "David G. Rand"
+    ],
+    "year": 2021,
+    "journal": "Scientific Reports",
+    "doi_or_url": "https://doi.org/10.1038/s41598-021-97617-5",
+    "citation_count": 244,
+    "is_high_impact": false,
+    "open_access": true,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W1969680998",
+    "title": "It takes two: Honesty\u2013Humility and Agreeableness differentially predict active versus reactive cooperation",
+    "authors": [
+      "Benjamin E. Hilbig",
+      "Ingo Zettler",
+      "Felix Leist",
+      "Timo Heydasch"
+    ],
+    "year": 2012,
+    "journal": "Personality and Individual Differences",
+    "doi_or_url": "https://doi.org/10.1016/j.paid.2012.11.008",
+    "citation_count": 242,
+    "is_high_impact": false,
+    "open_access": false,
     "used_for": [
       "task_workflow",
       "timing_parameters"
@@ -508,18 +2451,37 @@
     "notes": ""
   },
   {
-    "id": "W2005723316",
-    "title": "Young Children Are More Generous When Others Are Aware of Their Actions",
+    "id": "W2071488646",
+    "title": "Reciprocity in a two-part dictator game",
     "authors": [
-      "Kristin L. Leimgruber",
-      "Alex Shaw",
-      "Laurie R. Santos",
-      "Kristina R. Olson"
+      "Avner Ben\u2010Ner",
+      "Louis Putterman",
+      "Fanmin Kong",
+      "Dan Magan"
     ],
-    "year": 2012,
-    "journal": "PLoS ONE",
-    "doi_or_url": "https://doi.org/10.1371/journal.pone.0048292",
-    "citation_count": 229,
+    "year": 2003,
+    "journal": "Journal of Economic Behavior & Organization",
+    "doi_or_url": "https://doi.org/10.1016/j.jebo.2002.12.001",
+    "citation_count": 235,
+    "is_high_impact": false,
+    "open_access": false,
+    "used_for": [
+      "task_workflow",
+      "timing_parameters"
+    ],
+    "parameter_bindings": {},
+    "notes": ""
+  },
+  {
+    "id": "W2075016640",
+    "title": "The Roles of the State and the Market in Establishing Property Rights",
+    "authors": [
+      "Andrzej Rapaczynski"
+    ],
+    "year": 1996,
+    "journal": "The Journal of Economic Perspectives",
+    "doi_or_url": "https://doi.org/10.1257/jep.10.2.87",
+    "citation_count": 234,
     "is_high_impact": false,
     "open_access": true,
     "used_for": [
@@ -530,18 +2492,28 @@
     "notes": ""
   },
   {
-    "id": "W2155663598",
-    "title": "Individual and Corporate Social Responsibility",
+    "id": "W1998679438",
+    "title": "Is behavioral pro-sociality game-specific? Pro-social preference and expectations of pro-sociality",
     "authors": [
-      "Jean Tirole",
-      "Roland B\u00e9nabou"
+      "Toshio Yamagishi",
+      "Nobuhiro Mifune",
+      "Yang Li",
+      "Mizuho Shinada",
+      "Hirofumi Hashimoto",
+      "Yutaka Horita",
+      "Arisa Miura",
+      "Keigo Inukai",
+      "Shigehito Tanida",
+      "Toko Kiyonari",
+      "Haruto Takagishi",
+      "Dora \u0160imunovi\u0107"
     ],
-    "year": 2010,
-    "journal": "SSRN Electronic Journal",
-    "doi_or_url": "https://doi.org/10.2139/ssrn.1573694",
-    "citation_count": 226,
+    "year": 2013,
+    "journal": "Organizational Behavior and Human Decision Processes",
+    "doi_or_url": "https://doi.org/10.1016/j.obhdp.2012.06.002",
+    "citation_count": 233,
     "is_high_impact": false,
-    "open_access": true,
+    "open_access": false,
     "used_for": [
       "task_workflow",
       "timing_parameters"
@@ -550,2075 +2522,15 @@
     "notes": ""
   },
   {
-    "id": "W2115325666",
-    "title": "Aversion to norm-breaking: A model",
+    "id": "W2111558312",
+    "title": "Game Theoretic Research on the Design of International Environmental Agreements: Insights, Critical Remarks, and Future Challenges",
     "authors": [
-      "Ra\u00fal L\u00f3pez\u2010P\u00e9rez"
+      "Michael Finus"
     ],
     "year": 2008,
-    "journal": "Games and Economic Behavior",
-    "doi_or_url": "https://doi.org/10.1016/j.geb.2007.10.009",
-    "citation_count": 216,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2751386010",
-    "title": "How do people think about interdependence? A multidimensional model of subjective outcome interdependence.",
-    "authors": [
-      "Fabiola H. Gerpott",
-      "Daniel Balliet",
-      "Simon Columbus",
-      "Catherine Molho",
-      "Reinout E. de Vries"
-    ],
-    "year": 2017,
-    "journal": "Journal of Personality and Social Psychology",
-    "doi_or_url": "https://doi.org/10.1037/pspp0000166",
-    "citation_count": 206,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W1879068263",
-    "title": "Meta-analyses are no substitute for registered replications: a skeptical perspective on religious priming",
-    "authors": [
-      "Michiel van Elk",
-      "D\u00f3ra Matzke",
-      "Quentin F. Gronau",
-      "Maime Guan",
-      "Joachim Vandekerckhove",
-      "Eric\u2010Jan Wagenmakers"
-    ],
-    "year": 2015,
-    "journal": "Frontiers in Psychology",
-    "doi_or_url": "https://doi.org/10.3389/fpsyg.2015.01365",
-    "citation_count": 203,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W1995092846",
-    "title": "What Determines Giving to Hurricane Katrina Victims? Experimental Evidence on Racial Group Loyalty",
-    "authors": [
-      "Christina M. Fong",
-      "Erzo F.P. Luttmer"
-    ],
-    "year": 2009,
-    "journal": "American Economic Journal Applied Economics",
-    "doi_or_url": "https://doi.org/10.1257/app.1.2.64",
-    "citation_count": 200,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2038343717",
-    "title": "Self-serving interpretations of ambiguity in other-regarding behavior",
-    "authors": [
-      "Emily Haisley",
-      "Roberto A. Weber"
-    ],
-    "year": 2009,
-    "journal": "Games and Economic Behavior",
-    "doi_or_url": "https://doi.org/10.1016/j.geb.2009.08.002",
-    "citation_count": 197,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2198360256",
-    "title": "Field Experiments Across the Social Sciences",
-    "authors": [
-      "Delia Baldassarri",
-      "Maria Abascal"
-    ],
-    "year": 2017,
-    "journal": "Annual Review of Sociology",
-    "doi_or_url": "https://doi.org/10.1146/annurev-soc-073014-112445",
-    "citation_count": 179,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2060401699",
-    "title": "Altruism toward in-group members as a reputation mechanism",
-    "authors": [
-      "Nobuhiro Mifune",
-      "Hirofumi Hashimoto",
-      "Toshio Yamagishi"
-    ],
-    "year": 2009,
-    "journal": "Evolution and Human Behavior",
-    "doi_or_url": "https://doi.org/10.1016/j.evolhumbehav.2009.09.004",
-    "citation_count": 172,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2009537212",
-    "title": "The external validity of giving in the dictator game",
-    "authors": [
-      "Axel Franz\u00e9n",
-      "Sonja Pointner"
-    ],
-    "year": 2012,
-    "journal": "Experimental Economics",
-    "doi_or_url": "https://doi.org/10.1007/s10683-012-9337-5",
-    "citation_count": 164,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W1988350436",
-    "title": "Accidental Outcomes Guide Punishment in a \u201cTrembling Hand\u201d Game",
-    "authors": [
-      "Fiery Cushman",
-      "Anna Dreber",
-      "Wang Ying",
-      "Jay Costa"
-    ],
-    "year": 2009,
-    "journal": "PLoS ONE",
-    "doi_or_url": "https://doi.org/10.1371/journal.pone.0006699",
-    "citation_count": 159,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2039685956",
-    "title": "Do Images of \u2018Watching Eyes\u2019 Induce Behaviour That Is More Pro-Social or More Normative? A Field Experiment on Littering",
-    "authors": [
-      "Melissa Bateson",
-      "Luke Callow",
-      "Jessica R. Holmes",
-      "Maximilian L. Redmond Roche",
-      "Daniel Nettle"
-    ],
-    "year": 2013,
-    "journal": "PLoS ONE",
-    "doi_or_url": "https://doi.org/10.1371/journal.pone.0082055",
-    "citation_count": 159,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2017636578",
-    "title": "Sharing and giving across adolescence: an experimental study examining the development of prosocial behavior",
-    "authors": [
-      "Berna G\u00c3 \u2044 ro\u00c4\u0178lu",
-      "Wouter van den Bos",
-      "Eveline A. Crone"
-    ],
-    "year": 2014,
-    "journal": "Frontiers in Psychology",
-    "doi_or_url": "https://doi.org/10.3389/fpsyg.2014.00291",
-    "citation_count": 156,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W1488941809",
-    "title": "Why Do People Give? Testing Pure and Impure Altruism",
-    "authors": [
-      "Mark Ottoni\u2013Wilhelm",
-      "Lise Vesterlund",
-      "Huan Xie"
-    ],
-    "year": 2017,
-    "journal": "American Economic Review",
-    "doi_or_url": "https://doi.org/10.1257/aer.20141222",
-    "citation_count": 154,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2571098051",
-    "title": "Field Experiments in Organizations",
-    "authors": [
-      "Dov Eden"
-    ],
-    "year": 2017,
-    "journal": "Annual Review of Organizational Psychology and Organizational Behavior",
-    "doi_or_url": "https://doi.org/10.1146/annurev-orgpsych-041015-062400",
-    "citation_count": 153,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2541055764",
-    "title": "Intuition and Moral Decision-Making \u2013 The Effect of Time Pressure and Cognitive Load on Moral Judgment and Altruistic Behavior",
-    "authors": [
-      "Gustav Tingh\u00f6g",
-      "David Andersson",
-      "Caroline Bonn",
-      "Magnus Johannesson",
-      "Michael Kirchler",
-      "Lina Koppel",
-      "Daniel V\u00e4stfj\u00e4ll"
-    ],
-    "year": 2016,
-    "journal": "PLoS ONE",
-    "doi_or_url": "https://doi.org/10.1371/journal.pone.0164012",
-    "citation_count": 153,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2890989244",
-    "title": "The development of children's preferences for equality and equity across 13 individualistic and collectivist cultures",
-    "authors": [
-      "Elizabeth Huppert",
-      "Jason M. Cowell",
-      "Yawei Cheng",
-      "Carlos C. Contreras\u2010Ib\u00e1\u00f1ez",
-      "Natalia G\u00f3mez-Sicard",
-      "Mar\u00eda Luz Gonz\u00e1lez-Gadea",
-      "David Huepe",
-      "Agust\u00edn Ib\u00e1\u00f1ez",
-      "Kang Lee",
-      "Randa Mahasneh",
-      "Susan Malcolm\u2010Smith",
-      "Natalia Salas"
-    ],
-    "year": 2018,
-    "journal": "Developmental Science",
-    "doi_or_url": "https://doi.org/10.1111/desc.12729",
-    "citation_count": 148,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2801236378",
-    "title": "Age differences in the prosocial influence effect",
-    "authors": [
-      "Lucy Foulkes",
-      "Jovita T. Leung",
-      "Delia Fuhrmann",
-      "Lisa J. Knoll",
-      "Sarah\u2010Jayne Blakemore"
-    ],
-    "year": 2018,
-    "journal": "Developmental Science",
-    "doi_or_url": "https://doi.org/10.1111/desc.12666",
-    "citation_count": 142,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2567179506",
-    "title": "Unique Associations Between Big Five Personality Aspects and Multiple Dimensions of Well\u2010Being",
-    "authors": [
-      "Jessie Sun",
-      "Scott Barry Kaufman",
-      "Luke D. Smillie"
-    ],
-    "year": 2016,
-    "journal": "Journal of Personality",
-    "doi_or_url": "https://doi.org/10.1111/jopy.12301",
-    "citation_count": 140,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W3123667360",
-    "title": "The BCD of response time analysis in experimental economics",
-    "authors": [
-      "Leonidas Spiliopoulos",
-      "Andreas Ortmann"
-    ],
-    "year": 2017,
-    "journal": "Experimental Economics",
-    "doi_or_url": "https://doi.org/10.1007/s10683-017-9528-1",
-    "citation_count": 139,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2329617022",
-    "title": "Money, depletion, and prosociality in the dictator game.",
-    "authors": [
-      "Anja Achtziger",
-      "Carlos Al\u00f3s\u2010Ferrer",
-      "Alexander K. Wagner"
-    ],
-    "year": 2015,
-    "journal": "Journal of Neuroscience Psychology and Economics",
-    "doi_or_url": "https://doi.org/10.1037/npe0000031",
-    "citation_count": 132,
-    "is_high_impact": false,
-    "open_access": false,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2122105586",
-    "title": "A Common Mechanism Underlying Food Choice and Social Decisions",
-    "authors": [
-      "Ian Krajbich",
-      "Todd A. Hare",
-      "Bj\u00f6rn Bartling",
-      "Yosuke Morishima",
-      "Ernst Fehr"
-    ],
-    "year": 2015,
-    "journal": "PLoS Computational Biology",
-    "doi_or_url": "https://doi.org/10.1371/journal.pcbi.1004371",
-    "citation_count": 132,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2160470929",
-    "title": "Variation in Cooperative Behaviour within a Single City",
-    "authors": [
-      "Daniel Nettle",
-      "Agathe Coll\u00e9ony",
-      "Maria Cockerill"
-    ],
-    "year": 2011,
-    "journal": "PLoS ONE",
-    "doi_or_url": "https://doi.org/10.1371/journal.pone.0026922",
-    "citation_count": 132,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2317341792",
-    "title": "The role of moral emotions in the development of children\u2019s sharing behavior.",
-    "authors": [
-      "Sophia F. Ongley",
-      "Tina Malti"
-    ],
-    "year": 2013,
-    "journal": "Developmental Psychology",
-    "doi_or_url": "https://doi.org/10.1037/a0035191",
-    "citation_count": 129,
-    "is_high_impact": false,
-    "open_access": false,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W1970913744",
-    "title": "Interaction between Oxytocin Genotypes and Early Experience Predicts Quality of Mothering and Postpartum Mood",
-    "authors": [
-      "Viara R. Mileva\u2010Seitz",
-      "Meir Steiner",
-      "Leslie Atkinson",
-      "Michael J. Meaney",
-      "Robert D. Levitan",
-      "James L. Kennedy",
-      "Marla B. Sokolowski",
-      "Alison S. Fleming"
-    ],
-    "year": 2013,
-    "journal": "PLoS ONE",
-    "doi_or_url": "https://doi.org/10.1371/journal.pone.0061443",
-    "citation_count": 122,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2025707879",
-    "title": "The emergence of human prosociality: aligning with others through feelings, concerns, and norms",
-    "authors": [
-      "Keith Jensen",
-      "Amrisha Vaish",
-      "Marco F. H. Schmidt"
-    ],
-    "year": 2014,
-    "journal": "Frontiers in Psychology",
-    "doi_or_url": "https://doi.org/10.3389/fpsyg.2014.00822",
-    "citation_count": 122,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2033904384",
-    "title": "The early origins of human charity: developmental changes in preschoolers\u00e2\u20ac\u2122 sharing with poor and wealthy individuals",
-    "authors": [
-      "Markus Paulus"
-    ],
-    "year": 2014,
-    "journal": "Frontiers in Psychology",
-    "doi_or_url": "https://doi.org/10.3389/fpsyg.2014.00344",
-    "citation_count": 120,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2154973182",
-    "title": "Interdependent selves show face-induced facilitation of error processing: cultural neuroscience of self-threat",
-    "authors": [
-      "Jiyoung Park",
-      "Shinobu Kitayama"
-    ],
-    "year": 2012,
-    "journal": "Social Cognitive and Affective Neuroscience",
-    "doi_or_url": "https://doi.org/10.1093/scan/nss125",
-    "citation_count": 117,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2076973482",
-    "title": "Rats prefer mutual rewards in a prosocial choice task",
-    "authors": [
-      "Julen Hernandez-Lallement",
-      "Marijn van Wingerden",
-      "Christine Marx",
-      "Milan Srejic",
-      "Tobias Kalenscher"
-    ],
-    "year": 2015,
-    "journal": "Frontiers in Neuroscience",
-    "doi_or_url": "https://doi.org/10.3389/fnins.2014.00443",
-    "citation_count": 117,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2468312714",
-    "title": "Prosocial Behavior Increases with Age across Five Economic Games",
-    "authors": [
-      "Yoshie Matsumoto",
-      "Toshio Yamagishi",
-      "Yang Li",
-      "Toko Kiyonari"
-    ],
-    "year": 2016,
-    "journal": "PLoS ONE",
-    "doi_or_url": "https://doi.org/10.1371/journal.pone.0158671",
-    "citation_count": 116,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2513011479",
-    "title": "Prosocial Personality Traits Differentially Predict Egalitarianism, Generosity, and Reciprocity in Economic Games",
-    "authors": [
-      "Kun Zhao",
-      "Eamonn Ferguson",
-      "Luke D. Smillie"
-    ],
-    "year": 2016,
-    "journal": "Frontiers in Psychology",
-    "doi_or_url": "https://doi.org/10.3389/fpsyg.2016.01137",
-    "citation_count": 114,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2211268056",
-    "title": "Individual Differences in Good Manners Rather Than Compassion Predict Fair Allocations of Wealth in the Dictator Game",
-    "authors": [
-      "Kun Zhao",
-      "Eamonn Ferguson",
-      "Luke D. Smillie"
-    ],
-    "year": 2015,
-    "journal": "Journal of Personality",
-    "doi_or_url": "https://doi.org/10.1111/jopy.12237",
-    "citation_count": 112,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2122429215",
-    "title": "No Association between Oxytocin Receptor (OXTR) Gene Polymorphisms and Experimentally Elicited Social Preferences",
-    "authors": [
-      "Coren L. Apicella",
-      "David Cesarini",
-      "Magnus Johannesson",
-      "Christopher T. Dawes",
-      "Paul Lichtenstein",
-      "Bj\u00f6rn Wallace",
-      "Jonathan Beauchamp",
-      "Lars Westberg"
-    ],
-    "year": 2010,
-    "journal": "PLoS ONE",
-    "doi_or_url": "https://doi.org/10.1371/journal.pone.0011153",
-    "citation_count": 111,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2788810732",
-    "title": "Neurobiological Mechanisms of Responding to Injustice",
-    "authors": [
-      "Mirre Stallen",
-      "Filippo Canali De Rossi",
-      "Amber Heijne",
-      "Ale Smidts",
-      "Carsten K. W. De Dreu",
-      "Alan G. Sanfey"
-    ],
-    "year": 2018,
-    "journal": "Journal of Neuroscience",
-    "doi_or_url": "https://doi.org/10.1523/jneurosci.1242-17.2018",
-    "citation_count": 109,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W3128510346",
-    "title": "A Taxonomy of Social Errors in Human-Robot Interaction",
-    "authors": [
-      "Leimin Tian",
-      "Sharon Oviatt"
-    ],
-    "year": 2021,
-    "journal": "ACM Transactions on Human-Robot Interaction",
-    "doi_or_url": "https://doi.org/10.1145/3439720",
-    "citation_count": 108,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2018153306",
-    "title": "The Effect of Group Attachment and Social Position on Prosocial Behavior. Evidence from Lab-in-the-Field Experiments",
-    "authors": [
-      "Delia Baldassarri",
-      "Guy Grossman"
-    ],
-    "year": 2013,
-    "journal": "PLoS ONE",
-    "doi_or_url": "https://doi.org/10.1371/journal.pone.0058750",
-    "citation_count": 107,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2789339943",
-    "title": "Hypernatural Monitoring: A Social Rehearsal Account of Smartphone Addiction",
-    "authors": [
-      "Samuel P. L. Veissi\u00e8re",
-      "Moriah Stendel"
-    ],
-    "year": 2018,
-    "journal": "Frontiers in Psychology",
-    "doi_or_url": "https://doi.org/10.3389/fpsyg.2018.00141",
-    "citation_count": 105,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2117554560",
-    "title": "Helping or punishing strangers: neural correlates of altruistic decisions as third-party and of its relation to empathic concern",
-    "authors": [
-      "Yang Hu",
-      "Sabrina Strang",
-      "Bernd Weber"
-    ],
-    "year": 2015,
-    "journal": "Frontiers in Behavioral Neuroscience",
-    "doi_or_url": "https://doi.org/10.3389/fnbeh.2015.00024",
-    "citation_count": 102,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2950871985",
-    "title": "Does telling white lies signal pro-social preferences?",
-    "authors": [
-      "Laura Biziou-van-Pol",
-      "Jana Haenen",
-      "Arianna Novaro",
-      "Andr\u00e9s Occhipinti Liberman",
-      "Valerio Capraro"
-    ],
-    "year": 2015,
-    "journal": "Judgment and Decision Making",
-    "doi_or_url": "https://doi.org/10.1017/s1930297500006987",
-    "citation_count": 99,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2096976512",
-    "title": "The effect of oxytocin on cooperation in a prisoner\u2019s dilemma depends on the social context and a person\u2019s social value orientation",
-    "authors": [
-      "Carolyn H. Declerck",
-      "Christophe Boone",
-      "Toko Kiyonari"
-    ],
-    "year": 2013,
-    "journal": "Social Cognitive and Affective Neuroscience",
-    "doi_or_url": "https://doi.org/10.1093/scan/nst040",
-    "citation_count": 98,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2079578195",
-    "title": "Family Income Affects Children\u2019s Altruistic Behavior in the Dictator Game",
-    "authors": [
-      "Yong\u2010Xiang Chen",
-      "Liqi Zhu",
-      "Zhe Chen"
-    ],
-    "year": 2013,
-    "journal": "PLoS ONE",
-    "doi_or_url": "https://doi.org/10.1371/journal.pone.0080419",
-    "citation_count": 97,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2950707567",
-    "title": "Gender differences in lying in sender-receiver games: A meta-analysis",
-    "authors": [
-      "Valerio Capraro"
-    ],
-    "year": 2018,
-    "journal": "Judgment and Decision Making",
-    "doi_or_url": "https://doi.org/10.1017/s1930297500009220",
-    "citation_count": 96,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2170048523",
-    "title": "Functionality of promoter microsatellites of arginine vasopressin receptor 1A (AVPR1A): implications for autism",
-    "authors": [
-      "Katherine E. Tansey",
-      "Matthew Hill",
-      "Lynne Cochrane",
-      "Michael Gill",
-      "Richard Anney",
-      "Louise Gallagher"
-    ],
-    "year": 2011,
-    "journal": "Molecular Autism",
-    "doi_or_url": "https://doi.org/10.1186/2040-2392-2-3",
-    "citation_count": 91,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2785537664",
-    "title": "Costless and Costly Prosociality: Correspondence Among Personality Traits, Economic Preferences, and Real-World Prosociality",
-    "authors": [
-      "Eamonn Ferguson",
-      "Kun Zhao",
-      "Ronan E. O\u2019Carroll",
-      "Luke D. Smillie"
-    ],
-    "year": 2018,
-    "journal": "Social Psychological and Personality Science",
-    "doi_or_url": "https://doi.org/10.1177/1948550618765071",
-    "citation_count": 91,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W3123822913",
-    "title": "Tribal Social Instincts and the Cultural Evolution of Institutions to Solve Collective Action Problems",
-    "authors": [
-      "Peter J. Richerson",
-      "Joe Henrich"
-    ],
-    "year": 2012,
-    "journal": "Cliodynamics The Journal of Quantitative History and Cultural Evolution",
-    "doi_or_url": "https://doi.org/10.21237/c7clio3112453",
-    "citation_count": 89,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W3182387654",
-    "title": "Higher socioeconomic status does not predict decreased prosocial behavior in a field experiment",
-    "authors": [
-      "James Andreoni",
-      "Nikos Nikiforakis",
-      "Jan Stoop"
-    ],
-    "year": 2021,
-    "journal": "Nature Communications",
-    "doi_or_url": "https://doi.org/10.1038/s41467-021-24519-5",
-    "citation_count": 89,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W1961098619",
-    "title": "SOCIAL IDENTITY AND REDISTRIBUTIVE PREFERENCES: A SURVEY",
-    "authors": [
-      "Joan Costa\u2010Font",
-      "Frank Cowell"
-    ],
-    "year": 2014,
-    "journal": "Journal of Economic Surveys",
-    "doi_or_url": "https://doi.org/10.1111/joes.12061",
-    "citation_count": 87,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W4220951499",
-    "title": "Appreciating social science research on gratitude: An integrative review for organizational scholarship on gratitude in the workplace",
-    "authors": [
-      "Lauren Rachel Locklear",
-      "Sharon Sheridan",
-      "Dejun Tony Kong"
-    ],
-    "year": 2022,
-    "journal": "Journal of Organizational Behavior",
-    "doi_or_url": "https://doi.org/10.1002/job.2624",
-    "citation_count": 87,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2127626097",
-    "title": "Cumulative risk on the oxytocin receptor gene (<i>OXTR</i>) underpins empathic communication difficulties at the first stages of romantic love",
-    "authors": [
-      "Inna Schneiderman",
-      "Yaniv Kanat\u2010Maymon",
-      "Richard P. Ebstein",
-      "Ruth Feldman"
-    ],
-    "year": 2013,
-    "journal": "Social Cognitive and Affective Neuroscience",
-    "doi_or_url": "https://doi.org/10.1093/scan/nst142",
-    "citation_count": 86,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2004193057",
-    "title": "The Curious Relation between Theory of Mind and Sharing in Preschool Age Children",
-    "authors": [
-      "Jason M. Cowell",
-      "Anya Samek",
-      "John A. List",
-      "Jean Decety"
-    ],
-    "year": 2015,
-    "journal": "PLoS ONE",
-    "doi_or_url": "https://doi.org/10.1371/journal.pone.0117947",
-    "citation_count": 86,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2112219798",
-    "title": "AVPR1A Variant Associated with Preschoolers' Lower Altruistic Behavior",
-    "authors": [
-      "Reut Avinun",
-      "Salomon Israel",
-      "Idan Shalev",
-      "Inga Gritsenko",
-      "Gary Bornstein",
-      "Richard P. Ebstein",
-      "Ariel Knafo\u2010Noam"
-    ],
-    "year": 2011,
-    "journal": "PLoS ONE",
-    "doi_or_url": "https://doi.org/10.1371/journal.pone.0025274",
-    "citation_count": 85,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2904369820",
-    "title": "Future Design: Bequeathing Sustainable Natural Environments and Sustainable Societies to Future Generations",
-    "authors": [
-      "Tatsuyoshi Saijo"
-    ],
-    "year": 2020,
-    "journal": "Sustainability",
-    "doi_or_url": "https://doi.org/10.3390/su12166467",
-    "citation_count": 85,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2552656952",
-    "title": "Cross-cultural dataset for the evolution of religion and morality project",
-    "authors": [
-      "Benjamin Grant Purzycki",
-      "Coren L. Apicella",
-      "Quentin D. Atkinson",
-      "Emma Cohen",
-      "Rita Anne McNamara",
-      "Aiyana K. Willard",
-      "Dimitris Xygalatas",
-      "Ara Norenzayan",
-      "Joseph Henrich"
-    ],
-    "year": 2016,
-    "journal": "Scientific Data",
-    "doi_or_url": "https://doi.org/10.1038/sdata.2016.99",
-    "citation_count": 85,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W3123796359",
-    "title": "Time Pressure Increases Cooperation in Competitively Framed Social Dilemmas",
-    "authors": [
-      "Jeremy Cone",
-      "David G. Rand"
-    ],
-    "year": 2014,
-    "journal": "PLoS ONE",
-    "doi_or_url": "https://doi.org/10.1371/journal.pone.0115756",
-    "citation_count": 84,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2062334791",
-    "title": "Oxytocin enhances the perception of biological motion in humans",
-    "authors": [
-      "Szabolcs K\u00e9ri",
-      "Gy\u00f6rgy Benedek"
-    ],
-    "year": 2009,
-    "journal": "Cognitive Affective & Behavioral Neuroscience",
-    "doi_or_url": "https://doi.org/10.3758/cabn.9.3.237",
-    "citation_count": 82,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2052481972",
-    "title": "Pattern of money allocation in experimental games supports the stress hypothesis of gender differences in Toxoplasma gondii-induced behavioural changes",
-    "authors": [
-      "Jitka Lindov\u00e1",
-      "Ale\u0161 Kub\u011bna",
-      "Hana \u0160turcov\u00e1",
-      "Romana K\u0159ivohlav\u00e1",
-      "Martina Novotn\u00e1",
-      "Anna Rube\u0161ov\u00e1",
-      "Jan Havl\u0131\u0301\u010dek",
-      "Petr Kodym",
-      "Jaroslav Flegr"
-    ],
-    "year": 2010,
-    "journal": "Folia Parasitologica",
-    "doi_or_url": "https://doi.org/10.14411/fp.2010.017",
-    "citation_count": 82,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2027968932",
-    "title": "Infants Distinguish Antisocial Actions Directed towards Fair and Unfair Agents",
-    "authors": [
-      "Marek Meristo",
-      "Luca Surian"
-    ],
-    "year": 2014,
-    "journal": "PLoS ONE",
-    "doi_or_url": "https://doi.org/10.1371/journal.pone.0110553",
-    "citation_count": 82,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W3021157196",
-    "title": "Motivated misremembering of selfish decisions",
-    "authors": [
-      "Ryan W. Carlson",
-      "Michel Andr\u00e9 Mar\u00e9chal",
-      "Bastiaan Oud",
-      "Ernst Fehr",
-      "Molly J. Crockett"
-    ],
-    "year": 2020,
-    "journal": "Nature Communications",
-    "doi_or_url": "https://doi.org/10.1038/s41467-020-15602-4",
-    "citation_count": 81,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2133117619",
-    "title": "Acting on social exclusion: neural correlates of punishment and forgiveness of excluders",
-    "authors": [
-      "Geert\u2010Jan Will",
-      "Eveline A. Crone",
-      "Berna G\u00fcro\u011flu"
-    ],
-    "year": 2014,
-    "journal": "Social Cognitive and Affective Neuroscience",
-    "doi_or_url": "https://doi.org/10.1093/scan/nsu045",
-    "citation_count": 80,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2936124921",
-    "title": "Trust, ethnic diversity, and personal contact: A field experiment",
-    "authors": [
-      "Henning Finseraas",
-      "Torbj\u00f8rn Hanson",
-      "\u00c5shild A. Johnsen",
-      "Andreas Kotsadam",
-      "Gaute Torsvik"
-    ],
-    "year": 2019,
-    "journal": "Journal of Public Economics",
-    "doi_or_url": "https://doi.org/10.1016/j.jpubeco.2019.02.002",
-    "citation_count": 80,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2147426206",
-    "title": "Oxytonergic circuitry sustains and enables creative cognition in humans",
-    "authors": [
-      "Carsten K. W. De Dreu",
-      "Matthijs Baas",
-      "Marieke Roskes",
-      "Daniel Sligte",
-      "Richard P. Ebstein",
-      "Soo Hong Chew",
-      "Terry Y.Y. Tong",
-      "Yushi Jiang",
-      "Naama Mayseless",
-      "Simone Shamay\u2010Tsoory"
-    ],
-    "year": 2013,
-    "journal": "Social Cognitive and Affective Neuroscience",
-    "doi_or_url": "https://doi.org/10.1093/scan/nst094",
-    "citation_count": 77,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2145263118",
-    "title": "Oxytocin and socioemotional aging: Current knowledge and future trends",
-    "authors": [
-      "Natalie C. Ebner",
-      "Gabriela M. Maura",
-      "Kai MacDonald",
-      "Lars Westberg",
-      "H\u00e5kan Fischer"
-    ],
-    "year": 2013,
-    "journal": "Frontiers in Human Neuroscience",
-    "doi_or_url": "https://doi.org/10.3389/fnhum.2013.00487",
-    "citation_count": 77,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W1972960696",
-    "title": "Genetic imaging of the association of oxytocin receptor gene (OXTR) polymorphisms with positive maternal parenting",
-    "authors": [
-      "Kalina J. Michalska",
-      "Jean Decety",
-      "Chunyu Liu",
-      "Qi Chen",
-      "Meghan E. Martz",
-      "Suma Jacob",
-      "Alison E. Hipwell",
-      "Steve S. Lee",
-      "Andrea Chronis\u2010Tuscano",
-      "Irwin D. Waldman",
-      "Benjamin B. Lahey"
-    ],
-    "year": 2014,
-    "journal": "Frontiers in Behavioral Neuroscience",
-    "doi_or_url": "https://doi.org/10.3389/fnbeh.2014.00021",
-    "citation_count": 76,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2119397947",
-    "title": "The other side of the coin: oxytocin decreases the adherence to fairness norms",
-    "authors": [
-      "Sina Radke",
-      "Ellen R. A. de Bruijn"
-    ],
-    "year": 2012,
-    "journal": "Frontiers in Human Neuroscience",
-    "doi_or_url": "https://doi.org/10.3389/fnhum.2012.00193",
-    "citation_count": 74,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W1968068705",
-    "title": "Early Sympathy and Social Acceptance Predict the Development of Sharing in Children",
-    "authors": [
-      "Tina Malti",
-      "Michaela Gummerum",
-      "Monika Keller",
-      "Maria Paula Chaparro",
-      "Marlis Buchmann"
-    ],
-    "year": 2012,
-    "journal": "PLoS ONE",
-    "doi_or_url": "https://doi.org/10.1371/journal.pone.0052017",
-    "citation_count": 73,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W1936918942",
-    "title": "When is giving an impulse? An ERP investigation of intuitive prosocial behavior",
-    "authors": [
-      "Ryan W. Carlson",
-      "Lara B. Aknin",
-      "Mario Liotti"
-    ],
-    "year": 2015,
-    "journal": "Social Cognitive and Affective Neuroscience",
-    "doi_or_url": "https://doi.org/10.1093/scan/nsv077",
-    "citation_count": 73,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2154522154",
-    "title": "Resisting Moral Wiggle Room: How Robust Is Reciprocal Behavior?",
-    "authors": [
-      "Jo\u00ebl J. van der Weele",
-      "Julija Kulisa",
-      "Michael Kosfeld",
-      "Guido Friebel"
-    ],
-    "year": 2014,
-    "journal": "American Economic Journal Microeconomics",
-    "doi_or_url": "https://doi.org/10.1257/mic.6.3.256",
-    "citation_count": 73,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2987615267",
-    "title": "Ashamed to be selfish",
-    "authors": [
-      "David Dillenberger",
-      "Philipp Sadowski"
-    ],
-    "year": 2012,
-    "journal": "Theoretical Economics",
-    "doi_or_url": "https://doi.org/10.3982/te674",
-    "citation_count": 73,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2591586919",
-    "title": "Paranoia and the social representation of others: a large-scale game theory approach",
-    "authors": [
-      "Nichola Raihani",
-      "Vaughan Bell"
-    ],
-    "year": 2017,
-    "journal": "Scientific Reports",
-    "doi_or_url": "https://doi.org/10.1038/s41598-017-04805-3",
-    "citation_count": 72,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W3125281424",
-    "title": "The Collective Benefits of Feeling Good and Letting Go: Positive Emotion and (dis)Inhibition Interact to Predict Cooperative Behavior",
-    "authors": [
-      "David G. Rand",
-      "Gordon Kraft\u2010Todd",
-      "June Gruber"
-    ],
-    "year": 2015,
-    "journal": "PLoS ONE",
-    "doi_or_url": "https://doi.org/10.1371/journal.pone.0117426",
-    "citation_count": 72,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2783573583",
-    "title": "Friend versus foe: Neural correlates of prosocial decisions for liked and disliked peers",
-    "authors": [
-      "Elisabeth Schreuders",
-      "Eduard T. Klapwijk",
-      "Geert\u2010Jan Will",
-      "Berna G\u00fcro\u011flu"
-    ],
-    "year": 2018,
-    "journal": "Cognitive Affective & Behavioral Neuroscience",
-    "doi_or_url": "https://doi.org/10.3758/s13415-017-0557-1",
-    "citation_count": 72,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2761053893",
-    "title": "General Belief in a Just World Is Positively Associated with Dishonest Behavior",
-    "authors": [
-      "Kristin Wenzel",
-      "Simon Schindler",
-      "Marc\u2010Andr\u00e9 Reinhard"
-    ],
-    "year": 2017,
-    "journal": "Frontiers in Psychology",
-    "doi_or_url": "https://doi.org/10.3389/fpsyg.2017.01770",
-    "citation_count": 72,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W3124631199",
-    "title": "Benevolent Characteristics Promote Cooperative Behaviour among Humans",
-    "authors": [
-      "Valerio Capraro",
-      "Conor Smyth",
-      "Kalliopi Mylona",
-      "Graham A. Niblo"
-    ],
-    "year": 2014,
-    "journal": "PLoS ONE",
-    "doi_or_url": "https://doi.org/10.1371/journal.pone.0102881",
-    "citation_count": 72,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W1600013387",
-    "title": "In intergroup conflict, self-sacrifice is stronger among pro-social individuals, and parochial altruism emerges especially among cognitively taxed individuals",
-    "authors": [
-      "Carsten K. W. De Dreu",
-      "D. Berno Dussel",
-      "Femke S. Ten Velden"
-    ],
-    "year": 2015,
-    "journal": "Frontiers in Psychology",
-    "doi_or_url": "https://doi.org/10.3389/fpsyg.2015.00572",
-    "citation_count": 70,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2623142922",
-    "title": "Politeness and Compassion Differentially Predict Adherence to Fairness Norms and Interventions to Norm Violations in Economic Games",
-    "authors": [
-      "Kun Zhao",
-      "Eamonn Ferguson",
-      "Luke D. Smillie"
-    ],
-    "year": 2017,
-    "journal": "Scientific Reports",
-    "doi_or_url": "https://doi.org/10.1038/s41598-017-02952-1",
-    "citation_count": 70,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2091817709",
-    "title": "Give What You Get: Capuchin Monkeys (Cebus apella) and 4-Year-Old Children Pay Forward Positive and Negative Outcomes to Conspecifics",
-    "authors": [
-      "Kristin L. Leimgruber",
-      "Adrian F. Ward",
-      "Jane Widness",
-      "Michael I. Norton",
-      "Kristina R. Olson",
-      "Kurt Gray",
-      "Laurie R. Santos"
-    ],
-    "year": 2014,
-    "journal": "PLoS ONE",
-    "doi_or_url": "https://doi.org/10.1371/journal.pone.0087035",
-    "citation_count": 70,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2020172907",
-    "title": "The Effect of $1, $5 and $10 Stakes in an Online Dictator Game",
-    "authors": [
-      "Nichola Raihani",
-      "Ruth Mace",
-      "Shakti Lamba"
-    ],
-    "year": 2013,
-    "journal": "PLoS ONE",
-    "doi_or_url": "https://doi.org/10.1371/journal.pone.0073131",
-    "citation_count": 69,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2916347463",
-    "title": "Property Damage and Exposure to Other People in Distress Differentially Predict Prosocial Behavior After a Natural Disaster",
-    "authors": [
-      "Tom Vardy",
-      "Quentin D. Atkinson"
-    ],
-    "year": 2019,
-    "journal": "Psychological Science",
-    "doi_or_url": "https://doi.org/10.1177/0956797619826972",
-    "citation_count": 69,
-    "is_high_impact": true,
-    "open_access": false,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2125720934",
-    "title": "Romance, risk, and replication: Can consumer choices and risk-taking be primed by mating motives?",
-    "authors": [
-      "David R. Shanks",
-      "Miguel A. Vadillo",
-      "Benjamin Riedel",
-      "Ashley Clymo",
-      "Sinita Govind",
-      "Nisha Hickin",
-      "Amanda J. F. Tamman",
-      "Lara Puhlmann"
-    ],
-    "year": 2015,
-    "journal": "Journal of Experimental Psychology General",
-    "doi_or_url": "https://doi.org/10.1037/xge0000116",
-    "citation_count": 67,
-    "is_high_impact": true,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2119407402",
-    "title": "Exploring the \u2018public goods game\u2019 model to overcome the Tragedy of the Commons in fisheries management",
-    "authors": [
-      "Sarah Kraak"
-    ],
-    "year": 2010,
-    "journal": "Fish and Fisheries",
-    "doi_or_url": "https://doi.org/10.1111/j.1467-2979.2010.00372.x",
-    "citation_count": 67,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2082202187",
-    "title": "Gender Differences in Sleep Deprivation Effects on Risk and Inequality Aversion: Evidence from an Economic Experiment",
-    "authors": [
-      "Mich\u00e8le Ferrara",
-      "Anna Bottasso",
-      "Daniela Tempesta",
-      "Marika Carrieri",
-      "Luigi De Gennaro",
-      "Giovanni Ponti"
-    ],
-    "year": 2015,
-    "journal": "PLoS ONE",
-    "doi_or_url": "https://doi.org/10.1371/journal.pone.0120029",
-    "citation_count": 67,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2193970241",
-    "title": "Objective and subjective compliance: A norm-based explanation of \u2018moral wiggle room\u2019",
-    "authors": [
-      "Kai Spiekermann",
-      "Arne R. Weiss"
-    ],
-    "year": 2015,
-    "journal": "Games and Economic Behavior",
-    "doi_or_url": "https://doi.org/10.1016/j.geb.2015.11.007",
-    "citation_count": 66,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2795378186",
-    "title": "Social network cohesion in school classes promotes prosocial behavior",
-    "authors": [
-      "Wouter van den Bos",
-      "Eveline A. Crone",
-      "Rosa Meuwese",
-      "Berna G\u00fcro\u011flu"
-    ],
-    "year": 2018,
-    "journal": "PLoS ONE",
-    "doi_or_url": "https://doi.org/10.1371/journal.pone.0194656",
-    "citation_count": 66,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W3122491988",
-    "title": "An experimental investigation of why individuals conform",
-    "authors": [
-      "Basit Zafar"
-    ],
-    "year": 2011,
-    "journal": "European Economic Review",
-    "doi_or_url": "https://doi.org/10.1016/j.euroecorev.2011.01.002",
-    "citation_count": 66,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2341445414",
-    "title": "Error-prone inference from response time: The case of intuitive generosity in public-good games",
-    "authors": [
-      "Mar\u00eda P. Recalde",
-      "Arno Riedl",
-      "Lise Vesterlund"
-    ],
-    "year": 2018,
-    "journal": "Journal of Public Economics",
-    "doi_or_url": "https://doi.org/10.1016/j.jpubeco.2018.02.010",
-    "citation_count": 66,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W1989085541",
-    "title": "Social exclusion modulates fairness consideration in the ultimatum game: an ERP study",
-    "authors": [
-      "Chen Qu",
-      "Yuru Wang",
-      "Yunyun Huang"
-    ],
-    "year": 2013,
-    "journal": "Frontiers in Human Neuroscience",
-    "doi_or_url": "https://doi.org/10.3389/fnhum.2013.00505",
-    "citation_count": 65,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2969294681",
-    "title": "The power of moral words: Loaded language generates framing effects in the extreme dictator game",
-    "authors": [
-      "Valerio Capraro",
-      "Andrea Vanzo"
-    ],
-    "year": 2019,
-    "journal": "BOA (University of Milano-Bicocca)",
-    "doi_or_url": "https://doi.org/10.1017/s1930297500004356",
-    "citation_count": 65,
-    "is_high_impact": false,
-    "open_access": false,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2031811080",
-    "title": "Dopamine D4 Receptor Gene Associated with Fairness Preference in Ultimatum Game",
-    "authors": [
-      "Songfa Zhong",
-      "Salomon Israel",
-      "Idan Shalev",
-      "Hong Xue",
-      "Richard P. Ebstein",
-      "Soo Hong Chew"
-    ],
-    "year": 2010,
-    "journal": "PLoS ONE",
-    "doi_or_url": "https://doi.org/10.1371/journal.pone.0013765",
-    "citation_count": 65,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2950676358",
-    "title": "The Bright and Dark Side of Gossip for Cooperation in Groups",
-    "authors": [
-      "Terence Daniel Dores Cruz",
-      "Bianca Beersma",
-      "Maria T. M. Dijkstra",
-      "Myriam N. Bechtoldt"
-    ],
-    "year": 2019,
-    "journal": "Frontiers in Psychology",
-    "doi_or_url": "https://doi.org/10.3389/fpsyg.2019.01374",
-    "citation_count": 64,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W1561697837",
-    "title": "Overlapping and distinct representations of advantageous and disadvantageous inequality",
-    "authors": [
-      "Rongjun Yu",
-      "Andrew J. Calder",
-      "Dean Mobbs"
-    ],
-    "year": 2013,
-    "journal": "Human Brain Mapping",
-    "doi_or_url": "https://doi.org/10.1002/hbm.22402",
-    "citation_count": 64,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W3131184676",
-    "title": "Exploring the Relationship Between Empathy, Self-Construal Style, and Self-Reported Social Distancing Tendencies During the COVID-19 Pandemic",
-    "authors": [
-      "Carl Michael Galang",
-      "Devin L. Johnson",
-      "Sukhvinder S. Obhi"
-    ],
-    "year": 2021,
-    "journal": "Frontiers in Psychology",
-    "doi_or_url": "https://doi.org/10.3389/fpsyg.2021.588934",
-    "citation_count": 64,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2554853510",
-    "title": "Neighborhood Deprivation Negatively Impacts Children\u2019s Prosocial Behavior",
-    "authors": [
-      "Lou Safra",
-      "Teodora Tecu",
-      "St\u00e9phane Lambert",
-      "Mark Sheskin",
-      "Nicolas Baumard",
-      "Coralie Chevallier"
-    ],
-    "year": 2016,
-    "journal": "Frontiers in Psychology",
-    "doi_or_url": "https://doi.org/10.3389/fpsyg.2016.01760",
-    "citation_count": 63,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2223957170",
-    "title": "Polymorphisms of two loci at the oxytocin receptor gene in populations of Africa, Asia and South Europe",
-    "authors": [
-      "P. R. Butovskaya",
-      "O. E. Lazebny",
-      "E. M. Sukhodolskaya",
-      "Vasily A. Vasiliev",
-      "Daria Dronova",
-      "Julija N. Fedenok",
-      "Araceli Rosa",
-      "Elena Peletskaya",
-      "\u0410. \u041f. \u0420\u044b\u0441\u043a\u043e\u0432",
-      "Marina Butovskaya"
-    ],
-    "year": 2016,
-    "journal": "BMC Genetics",
-    "doi_or_url": "https://doi.org/10.1186/s12863-015-0323-8",
-    "citation_count": 63,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2149805502",
-    "title": "Motivation crowding in environmental protection: Evidence from an artefactual field experiment",
-    "authors": [
-      "Giovanna D\u2019Adda"
-    ],
-    "year": 2011,
-    "journal": "Ecological Economics",
-    "doi_or_url": "https://doi.org/10.1016/j.ecolecon.2011.06.006",
-    "citation_count": 63,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2602712479",
-    "title": "Life history strategy and human cooperation in economic games",
-    "authors": [
-      "Junhui Wu",
-      "Daniel Balliet",
-      "Joshua M. Tybur",
-      "Sakura Arai",
-      "Paul A. M. Van Lange",
-      "Toshio Yamagishi"
-    ],
-    "year": 2017,
-    "journal": "Evolution and Human Behavior",
-    "doi_or_url": "https://doi.org/10.1016/j.evolhumbehav.2017.03.002",
-    "citation_count": 62,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W2063587226",
-    "title": "Low social status decreases the neural salience of unfairness",
-    "authors": [
-      "Jie Hu",
-      "Yuan Cao",
-      "Philip R. Blue",
-      "Xiaolin Zhou"
-    ],
-    "year": 2014,
-    "journal": "Frontiers in Behavioral Neuroscience",
-    "doi_or_url": "https://doi.org/10.3389/fnbeh.2014.00402",
-    "citation_count": 62,
-    "is_high_impact": false,
-    "open_access": true,
-    "used_for": [
-      "task_workflow",
-      "timing_parameters"
-    ],
-    "parameter_bindings": {},
-    "notes": ""
-  },
-  {
-    "id": "W1871770319",
-    "title": "Environmental Morale and Motivation",
-    "authors": [
-      "Bruno S. Frey",
-      "Alois Stutzer"
-    ],
-    "year": 2006,
-    "journal": "SSRN Electronic Journal",
-    "doi_or_url": "https://doi.org/10.2139/ssrn.900370",
-    "citation_count": 62,
+    "journal": "International Review of Environmental and Resource Economics",
+    "doi_or_url": "https://doi.org/10.1561/101.00000011",
+    "citation_count": 230,
     "is_high_impact": false,
     "open_access": true,
     "used_for": [

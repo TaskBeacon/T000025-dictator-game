@@ -4,10 +4,10 @@ Task: `Dictator Game`
 
 | Condition | Implemented Stimulus IDs | Source Paper ID | Evidence (quote/figure/table) | Implementation Mode | Notes |
 |---|---|---|---|---|---|
-| `low_stake` | `cue_text`, `decision_panel`, `decision_generous/equal/selfish/timeout`, `outcome_feedback` | `W2074783654`, `W3125258780` | Dictator allocations under low endowment level with fixed choice set and explicit payoff feedback. | `psychopy_builtin` | Stake mapped to `controller.stake_levels.low_stake=10`. |
-| `medium_stake` | `cue_text`, `decision_panel`, `decision_generous/equal/selfish/timeout`, `outcome_feedback` | `W2074783654`, `W3125258780` | Same allocation structure under medium endowment to assess stake-dependent generosity. | `psychopy_builtin` | Stake mapped to `controller.stake_levels.medium_stake=20`. |
-| `high_stake` | `cue_text`, `decision_panel`, `decision_generous/equal/selfish/timeout`, `outcome_feedback` | `W2074783654`, `W3125258780` | High-endowment allocation trials for stake modulation of social preference. | `psychopy_builtin` | Stake mapped to `controller.stake_levels.high_stake=30`. |
-| Shared scaffolding | `fixation`, `block_break`, `good_bye` | `inferred` | Standard fixation/summary flow for block pacing and participant feedback. | `psychopy_builtin` | Operational support stimuli independent of stake condition. |
+| `low_stake` | `cue_text`, `decision_panel`, `outcome_feedback`, `fixation` | `W2128769827` | Condition-specific trial flow and outcome/response mapping described in selected paradigm references. | `psychopy_builtin` | Condition row resolved against current `config/config.yaml` stimuli and `src/run_trial.py` phase logic. |
+| `medium_stake` | `cue_text`, `decision_panel`, `outcome_feedback`, `fixation` | `W2128769827` | Condition-specific trial flow and outcome/response mapping described in selected paradigm references. | `psychopy_builtin` | Condition row resolved against current `config/config.yaml` stimuli and `src/run_trial.py` phase logic. |
+| `high_stake` | `cue_text`, `decision_panel`, `outcome_feedback`, `fixation` | `W2128769827` | Condition-specific trial flow and outcome/response mapping described in selected paradigm references. | `psychopy_builtin` | Condition row resolved against current `config/config.yaml` stimuli and `src/run_trial.py` phase logic. |
+| `all_conditions` | `instruction_text`, `block_break`, `good_bye`, `fixation` | `W2128769827` | Shared instruction, transition, and fixation assets support the common task envelope across all conditions. | `psychopy_builtin` | Shared assets are condition-agnostic and used in every run mode. |
 
 Implementation mode legend:
 - `psychopy_builtin`: stimulus rendered via PsychoPy primitives in config.
