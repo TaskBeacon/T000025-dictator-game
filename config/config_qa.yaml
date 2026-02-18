@@ -1,0 +1,245 @@
+subinfo_fields:
+- name: subject_id
+  type: int
+  constraints:
+    min: 101
+    max: 999
+    digits: 3
+subinfo_mapping:
+  subject_id: 被试编号（3位）
+  Participant Information: 被试信息
+  registration_failed: 注册失败
+  registration_successful: 注册成功
+  invalid_input: '{field} 输入无效'
+window:
+  size:
+  - 1280
+  - 720
+  units: pix
+  screen: 0
+  bg_color: gray
+  fullscreen: false
+  monitor_width_cm: 35.5
+  monitor_distance_cm: 60
+task:
+  task_name: dictator_game
+  save_path: ./outputs/qa
+  total_blocks: 1
+  total_trials: 9
+  trial_per_block: 9
+  conditions:
+  - low_stake
+  - medium_stake
+  - high_stake
+  key_list:
+  - f
+  - space
+  - j
+  seed_mode: same_across_sub
+  delta: 1
+  language: Chinese
+  voice_name: zh-CN-YunyangNeural
+  voice_enabled: false
+timing:
+  cue_duration: 0.3
+  anticipation_duration: 0.3
+  decision_duration: 0.7
+  decision_feedback_duration: 0.3
+  feedback_duration: 0.4
+  iti_duration: 0.3
+stimuli:
+  fixation:
+    type: text
+    text: +
+    color: white
+    height: 48
+    font: SimHei
+  instruction_text:
+    type: text
+    text: '独裁者博弈任务（QA）
+
+
+      试次数已缩短。
+
+
+      按空格键开始。
+
+      '
+    color: white
+    height: 28
+    wrapWidth: 980
+    font: SimHei
+  cue_text:
+    type: text
+    text: '本轮分配金额：{stake} 分
+
+      条件：{condition_label}
+
+      请准备做出分配决策
+
+      '
+    color: white
+    height: 34
+    wrapWidth: 980
+    font: SimHei
+  decision_panel:
+    type: text
+    text: '当前可分配金额：{stake} 分
+
+      左：慷慨（你30% / 对方70%）
+
+      中：平均（你50% / 对方50%）
+
+      右：自利（你90% / 对方10%）
+
+      '
+    color: white
+    height: 34
+    wrapWidth: 980
+    font: SimHei
+  decision_generous:
+    type: text
+    text: 你选择了：慷慨分配
+    color: green
+    height: 40
+    font: SimHei
+  decision_equal:
+    type: text
+    text: 你选择了：平均分配
+    color: yellow
+    height: 40
+    font: SimHei
+  decision_selfish:
+    type: text
+    text: 你选择了：自利分配
+    color: red
+    height: 40
+    font: SimHei
+  decision_timeout:
+    type: text
+    text: 未作答，按平均分配处理
+    color: white
+    height: 38
+    font: SimHei
+  outcome_feedback:
+    type: text
+    text: '本轮总金额：{stake} 分
+
+      你的选择：{choice_label}
+
+      你获得：{self_amount} 分
+
+      对方获得：{other_amount} 分
+
+      你的累计：{self_total} 分
+
+      对方累计：{other_total} 分
+
+      '
+    color: white
+    height: 32
+    wrapWidth: 980
+    font: SimHei
+  block_break:
+    type: text
+    text: 'QA 区块结束
+
+      慷慨率：{generous_rate:.1%}
+
+      平均率：{equal_rate:.1%}
+
+      自利率：{selfish_rate:.1%}
+
+      本区块你/对方：{block_self_total}/{block_other_total} 分
+
+      累计你/对方：{self_total}/{other_total} 分
+
+
+      按空格键继续。
+
+      '
+    color: white
+    height: 24
+    wrapWidth: 980
+    font: SimHei
+  good_bye:
+    type: text
+    text: 'QA 完成
+
+      最终你/对方收益：{self_total}/{other_total} 分
+
+
+      按空格键退出。
+
+      '
+    color: white
+    height: 30
+    wrapWidth: 980
+    font: SimHei
+triggers:
+  map:
+    exp_onset: 1
+    exp_end: 2
+    block_onset: 10
+    block_end: 11
+    low_stake_cue_onset: 20
+    medium_stake_cue_onset: 21
+    high_stake_cue_onset: 22
+    low_stake_decision_onset: 30
+    medium_stake_decision_onset: 31
+    high_stake_decision_onset: 32
+    decision_response: 50
+    decision_timeout: 51
+    decision_feedback_onset: 52
+    outcome_feedback_onset: 53
+    iti_onset: 60
+  driver:
+    type: serial_url
+    url: loop://
+    baudrate: 115200
+  timing:
+    post_delay_ms: 1
+  policy:
+    strict: false
+controller:
+  seed: 25025
+  enable_logging: true
+  allocation_profiles:
+    generous:
+      label: 慷慨分配
+      self_ratio: 0.3
+    equal:
+      label: 平均分配
+      self_ratio: 0.5
+    selfish:
+      label: 自利分配
+      self_ratio: 0.9
+  stake_levels:
+    low_stake: 10
+    medium_stake: 20
+    high_stake: 30
+qa:
+  output_dir: outputs/qa
+  enable_scaling: false
+  timing_scale: 1.0
+  min_frames: 1
+  strict: false
+  max_wait_s: 10.0
+  acceptance_criteria:
+    required_columns:
+    - trial_id
+    - condition
+    - stake
+    - target_response
+    - choice
+    - choice_label
+    - self_amount
+    - other_amount
+    - self_total
+    - other_total
+    expected_trial_count: 9
+    allowed_keys:
+    - f
+    - space
+    - j
+    triggers_required: true
