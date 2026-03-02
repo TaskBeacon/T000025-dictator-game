@@ -2,98 +2,91 @@
 
 ## 1. Paradigm Intent
 
-- Task: `dictator_game` (unilateral allocation task).
-- Research construct: prosocial vs self-interested allocation behavior when only the allocator (participant) decides the split.
-- Manipulated factor in this implementation: stake/endowment size (`low_stake=10`, `medium_stake=20`, `high_stake=30` points).
-- Response alternatives per trial:
-  - `generous`: self 30% / other 70%
-  - `equal`: self 50% / other 50%
-  - `selfish`: self 90% / other 10%
-- Key references used for paradigm-level grounding:
-  - `W2128769827` (Camerer & Thaler, 1995)
-  - `W3125258780` (Krupka & Weber, 2013)
-  - `W2039329578` (Israel et al., 2009)
+- Task: `dictator_game`.
+- Research construct: unilateral allocation preferences (prosocial vs self-serving) under stake manipulation.
+- Manipulated factor in this implementation: stake condition (`low_stake`, `medium_stake`, `high_stake`).
+- Core decision: participant chooses one fixed split option each trial.
 
-## 2. Block and Trial Workflow
+## 2. Block/Trial Workflow
 
 ### Block Structure
 
-- Total blocks: `3`
-- Trials per block: `24`
-- Total trials: `72`
-- Block scheduling: `Controller.prepare_block(...)` generates a shuffled sequence over stake conditions for each block.
+- Human profile: `3` blocks x `24` trials.
+- QA/sim profiles: `1` block x `9` trials (mechanism-complete short profile).
+- Block scheduling: controller shuffles condition assignments within each block.
 
-### Trial State Machine (Implemented)
+### Trial State Machine
 
 1. `stake_prompt`
-   - Participant sees current endowment amount (`本轮分配金额：{stake} 分`).
-   - Trigger: condition-specific prompt onset (`low_stake_prompt_onset`, `medium_stake_prompt_onset`, `high_stake_prompt_onset`).
-   - Duration: `timing.stake_prompt_duration` (fallback-compatible with legacy `cue_duration`).
-   - Response: none.
+- Display current stake/endowment and prompt participant to prepare for allocation decision.
+- Duration: `timing.stake_prompt_duration`.
+- Trigger: condition-specific prompt onset.
+
 2. `pre_decision_fixation`
-   - Participant sees central fixation (`+`) before decision.
-   - Trigger: no dedicated marker in current map.
-   - Duration: `timing.pre_decision_fixation_duration` (fallback-compatible with legacy `anticipation_duration`).
-   - Response: none.
+- Neutral fixation between prompt and response window.
+- Duration: `timing.pre_decision_fixation_duration`.
+
 3. `decision`
-   - Participant sees three allocation options and responds with `f` / `space` / `j`.
-   - Trigger: condition-specific decision onset + response/timeout markers.
-   - Duration: `timing.decision_duration`.
-   - Timeout policy: no response within deadline is handled as `equal` choice.
+- Display three-way split options and collect key response.
+- Duration: `timing.decision_duration`.
+- Triggers: condition-specific decision onset, response marker, timeout marker.
+
 4. `choice_feedback`
-   - Participant sees immediate acknowledgment of selected allocation type (or timeout notice).
-   - Trigger: `choice_feedback_onset` (fallback-compatible with legacy `decision_feedback_onset`).
-   - Duration: `timing.choice_feedback_duration` (fallback-compatible with legacy `decision_feedback_duration`).
-   - Response: none.
+- Brief post-choice acknowledgement (`generous/equal/selfish/timeout`).
+- Duration: `timing.choice_feedback_duration`.
+- Trigger: `choice_feedback_onset`.
+
 5. `outcome_feedback`
-   - Participant sees trial split (self/other) and running totals.
-   - Trigger: `outcome_feedback_onset`.
-   - Duration: `timing.outcome_feedback_duration` (fallback-compatible with legacy `feedback_duration`).
-   - Response: none.
-6. `iti`
-   - Participant sees fixation before next trial.
-   - Trigger: `iti_onset`.
-   - Duration: `timing.iti_duration`.
-   - Response: none.
+- Display self/other allocations and running totals.
+- Duration: `timing.outcome_feedback_duration`.
+- Trigger: `outcome_feedback_onset`.
+
+6. `inter_trial_interval`
+- Fixation before the next trial.
+- Duration: `timing.iti_duration`.
+- Trigger: `iti_onset`.
 
 ## 3. Condition Semantics
 
-- `low_stake`
-  - Endowment is fixed at `10` points.
-  - Same three allocation rules are available; only the stake magnitude changes.
-- `medium_stake`
-  - Endowment is fixed at `20` points.
-- `high_stake`
-  - Endowment is fixed at `30` points.
+- `low_stake`: endowment `10`.
+- `medium_stake`: endowment `20`.
+- `high_stake`: endowment `30`.
 
-Condition is shown to participants as a human-readable stake descriptor (`low stake` / `medium stake` / `high stake`) alongside the endowment amount.
+Condition affects stake magnitude only; response options and timing structure remain constant.
 
-## 4. Response, Timeout, and Scoring Rules
+## 4. Response and Scoring Rules
 
 - Key mapping:
-  - `f` -> `generous`
-  - `space` -> `equal`
-  - `j` -> `selfish`
-- Timeout handling:
-  - If no valid key is captured in decision window, `timed_out=True` and allocation is registered as `equal`.
-- Payoff computation (`Controller.register_decision`):
-  - `self_amount = round(stake * self_ratio)` (clamped to `[0, stake]`)
-  - `other_amount = stake - self_amount`
-- Running totals:
-  - `self_total` and `other_total` are accumulated across trials and shown in block/end summaries.
+- `f` -> `generous`
+- `space` -> `equal`
+- `j` -> `selfish`
+
+- Allocation profiles:
+- `generous`: self ratio `0.3`
+- `equal`: self ratio `0.5`
+- `selfish`: self ratio `0.9`
+
+- Timeout rule:
+- If no valid key is captured by decision deadline, choice is registered as `equal` and `timed_out=True`.
+
+- Outcome computation:
+- `self_amount = round(stake * self_ratio)` (clamped to `[0, stake]`)
+- `other_amount = stake - self_amount`
+- `self_total` and `other_total` accumulate across trials.
 
 ## 5. Stimulus Layout Plan
 
-- `stake_prompt_text`, `decision_panel`, `outcome_feedback`, and summary screens are centrally displayed text stimuli with `wrapWidth=980` and `font=SimHei`.
-- Decision screen keeps three options in a fixed left/center/right text list to preserve stable key-option mapping.
-- `fixation` is center-screen (`+`) and reused for pre-decision and ITI phases.
+- All participant-facing text is defined in YAML (`stimuli.*`) for localization portability.
+- `decision_panel` presents three options in stable left/center/right textual order aligned with key mapping.
+- Fixation is center-screen and reused across neutral intervals.
+- Outcome and block summary screens use centered multiline text with wrap width control.
 
 ## 6. Trigger Plan
 
 | Trigger | Code | Meaning |
 |---|---:|---|
-| `exp_onset` | 1 | Task start marker |
-| `exp_end` | 2 | Task end marker |
+| `exp_onset` | 1 | Experiment start |
+| `exp_end` | 2 | Experiment end |
 | `block_onset` | 10 | Block start |
 | `block_end` | 11 | Block end |
 | `low_stake_prompt_onset` | 20 | Low-stake prompt onset |
@@ -104,12 +97,19 @@ Condition is shown to participants as a human-readable stake descriptor (`low st
 | `high_stake_decision_onset` | 32 | High-stake decision onset |
 | `decision_response` | 50 | Decision response captured |
 | `decision_timeout` | 51 | Decision timeout |
-| `choice_feedback_onset` | 52 | Choice-feedback onset |
+| `choice_feedback_onset` | 52 | Choice feedback onset |
 | `outcome_feedback_onset` | 53 | Outcome feedback onset |
 | `iti_onset` | 60 | ITI onset |
 
-## 7. Inference Log
+## 7. Architecture Decisions (Auditability)
 
-- Exact exposure durations were not directly specified in the selected paradigm-level papers; timing values are implementation choices marked as inferred runtime parameters.
-- Fixed three-option split ratios (30/50/90% self-share) are an implementation-level operationalization of dictator allocations for repeatable behavioral sampling.
-- Legacy MID-style labels (`cue/anticipation/target`) were removed from active runtime phases for paradigm-appropriate event semantics.
+- `main.py` uses a single mode-aware execution flow (`human|qa|sim`) with shared setup order.
+- `src/run_trial.py` phase labels are aligned to dictator-game state names (`stake_prompt`, `decision`, `choice_feedback`, `outcome_feedback`) and no MID template labels remain.
+- Participant-facing text remains config-driven (`stim_bank.get_and_format(...)`) rather than code literals.
+- `decision` unit label is retained for compatibility with QA/sim artifact contracts (`decision_response`).
+
+## 8. Inference Log
+
+- Selected papers define dictator-game principles but do not prescribe exact display durations; timing values are inferred implementation parameters.
+- The three discrete split options (30/50/90% self-share) are an inferred operationalization for repeated-trial behavioral sampling.
+- Stake levels (`10/20/30`) are inferred implementation tiers for controlled context variation.

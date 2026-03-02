@@ -1,4 +1,4 @@
-﻿from __future__ import annotations
+from __future__ import annotations
 
 from functools import partial
 from typing import Any
@@ -75,66 +75,66 @@ def run_trial(
 
     make_unit = partial(StimUnit, win=win, kb=kb, runtime=trigger_runtime)
 
-    cue = make_unit(unit_label="cue").add_stim(
+    stake_prompt = make_unit(unit_label="stake_prompt").add_stim(
         stim_bank.get_and_format(
-            "cue_text",
+            "stake_prompt_text",
             condition_label=parsed["condition_label"],
             stake=int(parsed["stake"]),
         )
     )
     set_trial_context(
-        cue,
+        stake_prompt,
         trial_id=trial_id,
-        phase="cue",
-        deadline_s=_deadline_s(settings.cue_duration),
+        phase="stake_prompt",
+        deadline_s=_deadline_s(settings.stake_prompt_duration),
         valid_keys=[],
         block_id=trial_data["block_id"],
         condition_id=parsed["condition_id"],
         task_factors={
-            "stage": "cue",
+            "stage": "stake_prompt",
             "condition": parsed["condition"],
             "stake": int(parsed["stake"]),
             "block_idx": block_idx_val,
         },
-        stim_id="cue_text",
+        stim_id="stake_prompt_text",
     )
-    cue.show(
-        duration=settings.cue_duration,
-        onset_trigger=settings.triggers.get(f"{parsed['condition']}_cue_onset"),
+    stake_prompt.show(
+        duration=settings.stake_prompt_duration,
+        onset_trigger=settings.triggers.get(f"{parsed['condition']}_prompt_onset"),
     ).to_dict(trial_data)
 
-    anticipation = make_unit(unit_label="anticipation").add_stim(stim_bank.get("fixation"))
+    pre_decision_fixation = make_unit(unit_label="pre_decision_fixation").add_stim(stim_bank.get("fixation"))
     set_trial_context(
-        anticipation,
+        pre_decision_fixation,
         trial_id=trial_id,
-        phase="anticipation",
-        deadline_s=_deadline_s(settings.anticipation_duration),
+        phase="pre_decision_fixation",
+        deadline_s=_deadline_s(settings.pre_decision_fixation_duration),
         valid_keys=[],
         block_id=trial_data["block_id"],
         condition_id=parsed["condition_id"],
         task_factors={
-            "stage": "anticipation",
+            "stage": "pre_decision_fixation",
             "condition": parsed["condition"],
             "stake": int(parsed["stake"]),
             "block_idx": block_idx_val,
         },
         stim_id="fixation",
     )
-    anticipation.show(duration=settings.anticipation_duration).to_dict(trial_data)
+    pre_decision_fixation.show(duration=settings.pre_decision_fixation_duration).to_dict(trial_data)
 
-    decision = make_unit(unit_label="target").add_stim(
+    decision = make_unit(unit_label="decision").add_stim(
         stim_bank.get_and_format("decision_panel", stake=int(parsed["stake"]))
     )
     set_trial_context(
         decision,
         trial_id=trial_id,
-        phase="target",
+        phase="decision",
         deadline_s=_deadline_s(settings.decision_duration),
         valid_keys=[generous_key, equal_key, selfish_key],
         block_id=trial_data["block_id"],
         condition_id=parsed["condition_id"],
         task_factors={
-            "stage": "target",
+            "stage": "decision",
             "condition": parsed["condition"],
             "stake": int(parsed["stake"]),
             "generous_key": generous_key,
@@ -171,7 +171,7 @@ def run_trial(
         timed_out=timed_out,
     )
 
-    decision_feedback_name = (
+    choice_feedback_stim_id = (
         "decision_timeout"
         if timed_out
         else "decision_generous"
@@ -180,32 +180,32 @@ def run_trial(
         if choice == "selfish"
         else "decision_equal"
     )
-    decision_feedback = make_unit(unit_label="decision_feedback").add_stim(
-        stim_bank.get_and_format(decision_feedback_name, choice_label=outcome["choice_label"])
+    choice_feedback = make_unit(unit_label="choice_feedback").add_stim(
+        stim_bank.get_and_format(choice_feedback_stim_id, choice_label=outcome["choice_label"])
     )
     set_trial_context(
-        decision_feedback,
+        choice_feedback,
         trial_id=trial_id,
-        phase="decision_feedback",
-        deadline_s=_deadline_s(settings.decision_feedback_duration),
+        phase="choice_feedback",
+        deadline_s=_deadline_s(settings.choice_feedback_duration),
         valid_keys=[],
         block_id=trial_data["block_id"],
         condition_id=parsed["condition_id"],
         task_factors={
-            "stage": "decision_feedback",
+            "stage": "choice_feedback",
             "choice": choice,
             "choice_label": outcome["choice_label"],
             "timed_out": timed_out,
             "block_idx": block_idx_val,
         },
-        stim_id=decision_feedback_name,
+        stim_id=choice_feedback_stim_id,
     )
-    decision_feedback.show(
-        duration=settings.decision_feedback_duration,
-        onset_trigger=settings.triggers.get("decision_feedback_onset"),
+    choice_feedback.show(
+        duration=settings.choice_feedback_duration,
+        onset_trigger=settings.triggers.get("choice_feedback_onset"),
     ).to_dict(trial_data)
 
-    feedback = make_unit(unit_label="feedback").add_stim(
+    outcome_feedback = make_unit(unit_label="outcome_feedback").add_stim(
         stim_bank.get_and_format(
             "outcome_feedback",
             stake=int(outcome["stake"]),
@@ -217,15 +217,15 @@ def run_trial(
         )
     )
     set_trial_context(
-        feedback,
+        outcome_feedback,
         trial_id=trial_id,
-        phase="feedback",
-        deadline_s=_deadline_s(settings.feedback_duration),
+        phase="outcome_feedback",
+        deadline_s=_deadline_s(settings.outcome_feedback_duration),
         valid_keys=[],
         block_id=trial_data["block_id"],
         condition_id=parsed["condition_id"],
         task_factors={
-            "stage": "feedback",
+            "stage": "outcome_feedback",
             "choice": choice,
             "stake": int(outcome["stake"]),
             "self_amount": int(outcome["self_amount"]),
@@ -236,8 +236,8 @@ def run_trial(
         },
         stim_id="outcome_feedback",
     )
-    feedback.show(
-        duration=settings.feedback_duration,
+    outcome_feedback.show(
+        duration=settings.outcome_feedback_duration,
         onset_trigger=settings.triggers.get("outcome_feedback_onset"),
     ).to_dict(trial_data)
 
@@ -245,12 +245,12 @@ def run_trial(
     set_trial_context(
         iti,
         trial_id=trial_id,
-        phase="iti",
+        phase="inter_trial_interval",
         deadline_s=_deadline_s(settings.iti_duration),
         valid_keys=[],
         block_id=trial_data["block_id"],
         condition_id=parsed["condition_id"],
-        task_factors={"stage": "iti", "block_idx": block_idx_val},
+        task_factors={"stage": "inter_trial_interval", "block_idx": block_idx_val},
         stim_id="fixation",
     )
     iti.show(duration=settings.iti_duration, onset_trigger=settings.triggers.get("iti_onset")).to_dict(trial_data)

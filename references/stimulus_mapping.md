@@ -1,15 +1,15 @@
 # Stimulus Mapping
 
-Task: `Dictator Game`
+## Mapping Table
 
-| Condition | Implemented Stimulus IDs | Source Paper ID | Evidence Type | Implementation Mode | Notes |
-|---|---|---|---|---|---|
-| `low_stake` | `stake_prompt_text`, `decision_panel`, `decision_generous`, `decision_equal`, `decision_selfish`, `decision_timeout`, `outcome_feedback`, `fixation` | `W2128769827` | Dictator-game allocation decision with unilateral split outcome (paradigm-level) | `psychopy_builtin` | Endowment fixed to 10 points by controller stake map. |
-| `medium_stake` | `stake_prompt_text`, `decision_panel`, `decision_generous`, `decision_equal`, `decision_selfish`, `decision_timeout`, `outcome_feedback`, `fixation` | `W2128769827` | Dictator-game allocation decision with unilateral split outcome (paradigm-level) | `psychopy_builtin` | Endowment fixed to 20 points by controller stake map. |
-| `high_stake` | `stake_prompt_text`, `decision_panel`, `decision_generous`, `decision_equal`, `decision_selfish`, `decision_timeout`, `outcome_feedback`, `fixation` | `W2128769827` | Dictator-game allocation decision with unilateral split outcome (paradigm-level) | `psychopy_builtin` | Endowment fixed to 30 points by controller stake map. |
-| `all_conditions` | `instruction_text`, `block_break`, `good_bye`, `fixation` | `W3125258780` | Task envelope and repeated decision framing | `psychopy_builtin` | Shared Chinese instruction/summary screens used across human/qa/sim configs. |
-
-Implementation mode legend:
-- `psychopy_builtin`: stimulus rendered with PsychoPy text primitives configured in YAML.
-- `generated_reference_asset`: task-specific generated assets from literature-described rules.
-- `licensed_external_asset`: external licensed media with citation linkage.
+| Condition | Stage/Phase | Stimulus IDs | Participant-Facing Content | Source Paper ID | Evidence (quote/figure/table) | Implementation Mode | Asset References | Notes |
+|---|---|---|---|---|---|---|---|---|
+| `low_stake` | stake_prompt | `stake_prompt_text` | Stake prompt showing current endowment (`10`) and trial framing before choice. | W2128769827 | Dictator protocol requires allocator to know available endowment before deciding split. | psychopy_builtin | `config/*.yaml -> stimuli.stake_prompt_text` | Condition-specific trigger: `low_stake_prompt_onset`. |
+| `medium_stake` | stake_prompt | `stake_prompt_text` | Same prompt layout with endowment `20`. | W2128769827 | Same paradigm requirement; only stake differs. | psychopy_builtin | `config/*.yaml -> stimuli.stake_prompt_text` | Condition-specific trigger: `medium_stake_prompt_onset`. |
+| `high_stake` | stake_prompt | `stake_prompt_text` | Same prompt layout with endowment `30`. | W2128769827 | Same paradigm requirement; only stake differs. | psychopy_builtin | `config/*.yaml -> stimuli.stake_prompt_text` | Condition-specific trigger: `high_stake_prompt_onset`. |
+| `all_conditions` | pre_decision_fixation | `fixation` | Central fixation cross before response window. | W2128769827 | Neutral pre-response display is implementation-level control step. | psychopy_builtin | `config/*.yaml -> stimuli.fixation` | No condition-specific content. |
+| `all_conditions` | decision | `decision_panel` | Three-option split menu: generous/equal/selfish allocation with key-mapped options. | W2128769827 | Dictator game is defined by unilateral allocation choice among feasible splits. | psychopy_builtin | `config/*.yaml -> stimuli.decision_panel` | Unit label kept as `decision` for QA/sim artifact compatibility. |
+| `all_conditions` | choice_feedback | `decision_generous`, `decision_equal`, `decision_selfish`, `decision_timeout` | Immediate acknowledgment of selected split type or timeout handling message. | W2128769827 | Post-response acknowledgement is implementation-level, not fixed by paper. | psychopy_builtin | `config/*.yaml -> stimuli.decision_*` | Timeout follows default equal allocation policy. |
+| `all_conditions` | outcome_feedback | `outcome_feedback` | Per-trial self/other points and running totals. | W3125258780 | Sharing outcomes are central dependent variables in dictator-game analysis. | psychopy_builtin | `config/*.yaml -> stimuli.outcome_feedback` | Uses controller-computed split and cumulative totals. |
+| `all_conditions` | inter_trial_interval | `fixation` | Short fixation before next trial. | W2128769827 | ITI timing is implementation-defined. | psychopy_builtin | `config/*.yaml -> stimuli.fixation` | Trigger: `iti_onset`. |
+| `all_conditions` | envelope | `instruction_text`, `block_break`, `good_bye` | Instructions, block summary, and final summary screens. | W2128769827 | Task framing and repeated decision context are required for participant understanding. | psychopy_builtin | `config/*.yaml -> stimuli.instruction_text/block_break/good_bye` | Localization remains config-driven. |

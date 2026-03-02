@@ -1,5 +1,24 @@
 # CHANGELOG
 
+## [v0.2.3-dev] - 2026-03-02
+
+### Changed
+- Standardized `main.py` into the single-flow runtime pattern for `human|qa|sim` execution.
+- Rewrote `src/run_trial.py` to remove residual legacy phase labels and use dictator-game states only:
+  - `stake_prompt`, `pre_decision_fixation`, `decision`, `choice_feedback`, `outcome_feedback`, `inter_trial_interval`.
+- Removed UTF-8 BOM from `src/run_trial.py` so static localization/schema parsing works.
+- Updated references artifacts to current contract schema:
+  - required table columns in `references.md`,
+  - required `## Mapping Table` sections and column schemas in mapping docs,
+  - required `## 1`..`## 8` audit sections including architecture and inference log.
+
+### Validation
+- `python C:\\Users\\frued\\.codex\\skills\\task-build\\scripts\\check_task_standard.py --task-path e:\\Taskbeacon\\T000025-dictator-game`
+- `python -m psyflow.validate e:/Taskbeacon/T000025-dictator-game`
+- `psyflow-qa e:/Taskbeacon/T000025-dictator-game --no-maturity-update`
+- `python main.py sim --config config/config_scripted_sim.yaml`
+- `python main.py sim --config config/config_sampler_sim.yaml`
+
 ## [v0.2.2-dev] - 2026-02-19
 
 ### Changed

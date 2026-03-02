@@ -1,38 +1,18 @@
 # Parameter Mapping
 
-| Parameter | Implemented Value | Source Paper ID | Confidence | Rationale |
-|---|---|---|---|---|
-| `task.conditions` | `['low_stake', 'medium_stake', 'high_stake']` | `W2128769827` | `inferred` | Mapped from selected protocol references |
-| `task.delta` | `1` | `W2128769827` | `inferred` | Mapped from selected protocol references |
-| `task.key_list` | `['f', 'space', 'j']` | `W2128769827` | `inferred` | Mapped from selected protocol references |
-| `task.language` | `Chinese` | `W2128769827` | `inferred` | Mapped from selected protocol references |
-| `task.save_path` | `./outputs/human` | `W2128769827` | `inferred` | Mapped from selected protocol references |
-| `task.seed_mode` | `same_across_sub` | `W2128769827` | `inferred` | Mapped from selected protocol references |
-| `task.task_name` | `dictator_game` | `W2128769827` | `inferred` | Mapped from selected protocol references |
-| `task.total_blocks` | `3` | `W2128769827` | `inferred` | Mapped from selected protocol references |
-| `task.total_trials` | `72` | `W2128769827` | `inferred` | Mapped from selected protocol references |
-| `task.trial_per_block` | `24` | `W2128769827` | `inferred` | Mapped from selected protocol references |
-| `task.voice_enabled` | `False` | `W2128769827` | `inferred` | Mapped from selected protocol references |
-| `task.voice_name` | `zh-CN-YunyangNeural` | `W2128769827` | `inferred` | Mapped from selected protocol references |
-| `timing.pre_decision_fixation_duration` | `0.5` | `W2128769827` | `inferred` | Mapped from selected protocol references |
-| `timing.stake_prompt_duration` | `0.6` | `W2128769827` | `inferred` | Mapped from selected protocol references |
-| `timing.decision_duration` | `2.2` | `W2128769827` | `inferred` | Mapped from selected protocol references |
-| `timing.choice_feedback_duration` | `0.5` | `W2128769827` | `inferred` | Mapped from selected protocol references |
-| `timing.outcome_feedback_duration` | `1.0` | `W2128769827` | `inferred` | Mapped from selected protocol references |
-| `timing.iti_duration` | `0.8` | `W2128769827` | `inferred` | Mapped from selected protocol references |
-| `triggers.map.block_end` | `11` | `W2128769827` | `inferred` | Mapped from selected protocol references |
-| `triggers.map.block_onset` | `10` | `W2128769827` | `inferred` | Mapped from selected protocol references |
-| `triggers.map.choice_feedback_onset` | `52` | `W2128769827` | `inferred` | Mapped from selected protocol references |
-| `triggers.map.decision_response` | `50` | `W2128769827` | `inferred` | Mapped from selected protocol references |
-| `triggers.map.decision_timeout` | `51` | `W2128769827` | `inferred` | Mapped from selected protocol references |
-| `triggers.map.exp_end` | `2` | `W2128769827` | `inferred` | Mapped from selected protocol references |
-| `triggers.map.exp_onset` | `1` | `W2128769827` | `inferred` | Mapped from selected protocol references |
-| `triggers.map.high_stake_prompt_onset` | `22` | `W2128769827` | `inferred` | Mapped from selected protocol references |
-| `triggers.map.high_stake_decision_onset` | `32` | `W2128769827` | `inferred` | Mapped from selected protocol references |
-| `triggers.map.iti_onset` | `60` | `W2128769827` | `inferred` | Mapped from selected protocol references |
-| `triggers.map.low_stake_prompt_onset` | `20` | `W2128769827` | `inferred` | Mapped from selected protocol references |
-| `triggers.map.low_stake_decision_onset` | `30` | `W2128769827` | `inferred` | Mapped from selected protocol references |
-| `triggers.map.medium_stake_prompt_onset` | `21` | `W2128769827` | `inferred` | Mapped from selected protocol references |
-| `triggers.map.medium_stake_decision_onset` | `31` | `W2128769827` | `inferred` | Mapped from selected protocol references |
-| `triggers.map.outcome_feedback_onset` | `53` | `W2128769827` | `inferred` | Mapped from selected protocol references |
+## Mapping Table
 
+| Parameter ID | Config Path | Implemented Value | Source Paper ID | Evidence (quote/figure/table) | Decision Type | Notes |
+|---|---|---|---|---|---|---|
+| task.conditions | `task.conditions` | `['low_stake', 'medium_stake', 'high_stake']` | W2128769827 | Dictator paradigm uses repeated allocation trials; this implementation samples across stake contexts. | inferred | Three stake levels operationalize context variation while preserving unilateral allocation logic. |
+| task.trials | `task.total_blocks`, `task.trial_per_block`, `task.total_trials` | `3 x 24 = 72` (human), `1 x 9 = 9` (qa/sim) | W2128769827 | Repeated one-shot allocation decisions are standard in dictator-game batteries. | inferred | QA/sim shortened for fast gate execution. |
+| task.keys | `task.key_list` | `['f', 'space', 'j']` | W2128769827 | Paper does not fix keyboard mapping; mapping is implementation-defined. | inferred | Mapping is taught in instruction text and mirrored in decision panel. |
+| timing.stake_prompt | `timing.stake_prompt_duration` | `0.6s` human, `0.3s` qa/sim | W2128769827 | No fixed exposure duration reported for this display stage. | inferred | Prompt introduces stake before choice. |
+| timing.pre_decision_fixation | `timing.pre_decision_fixation_duration` | `0.5s` human, `0.3s` qa/sim | W2128769827 | No fixed fixation duration specified. | inferred | Neutral pre-decision interval. |
+| timing.decision_window | `timing.decision_duration` | `2.2s` human, `0.7s` qa/sim | W2128769827 | Decision is participant-paced within a bounded response window in computerized implementations. | inferred | Timeout is recorded and mapped to default allocation policy. |
+| timing.choice_feedback | `timing.choice_feedback_duration` | `0.5s` human, `0.3s` qa/sim | W2128769827 | No exact value reported. | inferred | Immediate post-choice acknowledgement. |
+| timing.outcome_feedback | `timing.outcome_feedback_duration` | `1.0s` human, `0.4s` qa/sim | W2128769827 | Outcome presentation duration is implementation-defined. | inferred | Displays self/other split and running totals. |
+| timing.iti | `timing.iti_duration` | `0.8s` human, `0.3s` qa/sim | W2128769827 | No exact ITI requirement in selected papers. | inferred | Keeps rhythmic spacing between trials. |
+| controller.allocation_profiles | `controller.allocation_profiles` | generous=0.3 self, equal=0.5 self, selfish=0.9 self | W2128769827 | Dictator task is defined by unilateral split decisions; exact menu values are implementation parameters. | inferred | Fixed three-option menu ensures stable repeated-trial sampling. |
+| controller.stake_levels | `controller.stake_levels` | low=10, medium=20, high=30 | W3125258780 | Papers discuss variability in sharing context/norms, not fixed numerical stakes. | inferred | Stake tiers provide controlled context manipulation. |
+| trigger.plan | `triggers.map` | exp/block/stake_prompt/decision/response/timeout/feedback/iti markers | W2128769827 | Event coding for EEG/behavior logging is implementation-specific. | inferred | Condition-specific prompt/decision onset triggers are maintained. |
