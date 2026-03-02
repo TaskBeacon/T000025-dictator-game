@@ -5,7 +5,7 @@
 | Field | Value |
 |---|---|
 | Name | Dictator Game |
-| Version | v0.2.1-dev |
+| Version | v0.2.2-dev |
 | URL / Repository | https://github.com/TaskBeacon/T000025-dictator-game |
 | Short Description | Three-option allocation decisions (generous/equal/selfish) under different stake levels. |
 | Created By | TaskBeacon |
@@ -27,7 +27,7 @@ This task implements a standard Dictator Game. On each trial, participants choos
 | Step | Description |
 |---|---|
 | 1. Schedule trials | `Controller.prepare_block(...)` generates balanced low/medium/high-stake trial sequences. |
-| 2. Execute trials | `BlockUnit(...).run_trial(...)` executes cue, decision, and outcome stages. |
+| 2. Execute trials | `BlockUnit(...).run_trial(...)` executes stake prompt, decision, and outcome stages. |
 | 3. Block summary | Allocation-type proportions and block-level earnings are shown. |
 | 4. Final summary | Cumulative self/other totals are reported at task end. |
 
@@ -35,7 +35,7 @@ This task implements a standard Dictator Game. On each trial, participants choos
 
 | Step | Description |
 |---|---|
-| Stake cue | Stake amount and condition label are shown. |
+| Stake prompt | Stake amount for current trial is shown. |
 | Pre-decision fixation | Fixation before decision panel. |
 | Allocation decision | Three-choice allocation panel is presented and response is captured. |
 | Decision confirmation | Selected rule (or timeout fallback) is shown. |
@@ -54,11 +54,11 @@ This task implements a standard Dictator Game. On each trial, participants choos
 
 | Phase Label | Meaning |
 |---|---|
-| `cue` | Stake cue stage. |
-| `anticipation` | Fixation before allocation choice. |
-| `target` | Three-option allocation decision stage. |
-| `decision_feedback` | Decision confirmation stage. |
-| `feedback` | Outcome feedback stage. |
+| `stake_prompt` | Stake prompt stage. |
+| `pre_decision_fixation` | Fixation before allocation choice. |
+| `decision` | Three-option allocation decision stage. |
+| `choice_feedback` | Decision confirmation stage. |
+| `outcome_feedback` | Outcome feedback stage. |
 | `iti` | ITI stage. |
 
 ## 3. Configuration Summary
@@ -88,7 +88,7 @@ This task implements a standard Dictator Game. On each trial, participants choos
 
 | Name | Type | Description |
 |---|---|---|
-| `cue_text` | text | Stake and condition cue. |
+| `stake_prompt_text` | text | Stake prompt shown before choice. |
 | `decision_panel` | text | Three-option allocation panel. |
 | `decision_*` | text | Choice confirmation screens. |
 | `outcome_feedback` | text | Trial and cumulative payoff summary. |
@@ -98,11 +98,11 @@ This task implements a standard Dictator Game. On each trial, participants choos
 
 | Phase | Duration |
 |---|---|
-| cue | 0.6 s |
-| anticipation | 0.5 s |
+| stake_prompt | 0.6 s |
+| pre_decision_fixation | 0.5 s |
 | decision | 2.2 s |
-| decision_feedback | 0.5 s |
-| feedback | 1.0 s |
+| choice_feedback | 0.5 s |
+| outcome_feedback | 1.0 s |
 | iti | 0.8 s |
 
 ## 4. Methods (for academic publication)

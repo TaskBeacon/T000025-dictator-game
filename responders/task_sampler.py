@@ -82,14 +82,14 @@ class TaskSamplerResponder:
             return Action(key=None, rt_s=None, meta={"source": "task_sampler", "reason": "no_valid_keys"})
 
         phase = str(obs.phase or "")
-        if phase != "target" and self.continue_key in valid_keys:
+        if phase != "decision" and self.continue_key in valid_keys:
             return Action(
                 key=self.continue_key,
                 rt_s=max(self.rt_min_s, self.rt_mean_s - 0.12),
                 meta={"source": "task_sampler", "policy": "continue"},
             )
 
-        if phase != "target":
+        if phase != "decision":
             return Action(key=None, rt_s=None, meta={"source": "task_sampler", "phase": phase})
 
         factors = dict(obs.task_factors or {})

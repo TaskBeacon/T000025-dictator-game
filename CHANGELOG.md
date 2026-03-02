@@ -1,5 +1,19 @@
 # CHANGELOG
 
+## [v0.2.2-dev] - 2026-02-19
+
+### Changed
+- Repaired runtime phase semantics to dictator-specific labels:
+  - `stake_prompt -> pre_decision_fixation -> decision -> choice_feedback -> outcome_feedback -> iti`.
+- Replaced legacy `cue_text` stimulus key with `stake_prompt_text` across all configs and runtime bindings.
+- Updated timing keys to paradigm-specific names with backward-compatible fallbacks in `src/run_trial.py`:
+  - `stake_prompt_duration`, `pre_decision_fixation_duration`, `choice_feedback_duration`, `outcome_feedback_duration`.
+- Renamed prompt/feedback triggers to non-MID labels in configs:
+  - `*_prompt_onset`, `choice_feedback_onset`.
+- Updated sampler responder to act on `phase == "decision"` instead of legacy `target`.
+- Rewrote `references/task_logic_audit.md` and `references/stimulus_mapping.md` with literature-first dictator-game logic and concrete stimulus mapping.
+- Synced README task-flow documentation with the repaired phase/state names.
+
 ## [v0.2.1-dev] - 2026-02-19
 
 ### Changed

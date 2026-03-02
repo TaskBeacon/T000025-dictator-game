@@ -2,14 +2,14 @@
 
 Task: `Dictator Game`
 
-| Condition | Implemented Stimulus IDs | Source Paper ID | Evidence (quote/figure/table) | Implementation Mode | Notes |
+| Condition | Implemented Stimulus IDs | Source Paper ID | Evidence Type | Implementation Mode | Notes |
 |---|---|---|---|---|---|
-| `low_stake` | `cue_text`, `decision_panel`, `outcome_feedback`, `fixation` | `W2128769827` | Condition-specific trial flow and outcome/response mapping described in selected paradigm references. | `psychopy_builtin` | Condition row resolved against current `config/config.yaml` stimuli and `src/run_trial.py` phase logic. |
-| `medium_stake` | `cue_text`, `decision_panel`, `outcome_feedback`, `fixation` | `W2128769827` | Condition-specific trial flow and outcome/response mapping described in selected paradigm references. | `psychopy_builtin` | Condition row resolved against current `config/config.yaml` stimuli and `src/run_trial.py` phase logic. |
-| `high_stake` | `cue_text`, `decision_panel`, `outcome_feedback`, `fixation` | `W2128769827` | Condition-specific trial flow and outcome/response mapping described in selected paradigm references. | `psychopy_builtin` | Condition row resolved against current `config/config.yaml` stimuli and `src/run_trial.py` phase logic. |
-| `all_conditions` | `instruction_text`, `block_break`, `good_bye`, `fixation` | `W2128769827` | Shared instruction, transition, and fixation assets support the common task envelope across all conditions. | `psychopy_builtin` | Shared assets are condition-agnostic and used in every run mode. |
+| `low_stake` | `stake_prompt_text`, `decision_panel`, `decision_generous`, `decision_equal`, `decision_selfish`, `decision_timeout`, `outcome_feedback`, `fixation` | `W2128769827` | Dictator-game allocation decision with unilateral split outcome (paradigm-level) | `psychopy_builtin` | Endowment fixed to 10 points by controller stake map. |
+| `medium_stake` | `stake_prompt_text`, `decision_panel`, `decision_generous`, `decision_equal`, `decision_selfish`, `decision_timeout`, `outcome_feedback`, `fixation` | `W2128769827` | Dictator-game allocation decision with unilateral split outcome (paradigm-level) | `psychopy_builtin` | Endowment fixed to 20 points by controller stake map. |
+| `high_stake` | `stake_prompt_text`, `decision_panel`, `decision_generous`, `decision_equal`, `decision_selfish`, `decision_timeout`, `outcome_feedback`, `fixation` | `W2128769827` | Dictator-game allocation decision with unilateral split outcome (paradigm-level) | `psychopy_builtin` | Endowment fixed to 30 points by controller stake map. |
+| `all_conditions` | `instruction_text`, `block_break`, `good_bye`, `fixation` | `W3125258780` | Task envelope and repeated decision framing | `psychopy_builtin` | Shared Chinese instruction/summary screens used across human/qa/sim configs. |
 
 Implementation mode legend:
-- `psychopy_builtin`: stimulus rendered via PsychoPy primitives in config.
-- `generated_reference_asset`: task-specific synthetic assets generated from reference-described stimulus rules.
-- `licensed_external_asset`: externally sourced licensed media with protocol linkage.
+- `psychopy_builtin`: stimulus rendered with PsychoPy text primitives configured in YAML.
+- `generated_reference_asset`: task-specific generated assets from literature-described rules.
+- `licensed_external_asset`: external licensed media with citation linkage.
