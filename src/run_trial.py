@@ -1,49 +1,9 @@
 from __future__ import annotations
 
 from functools import partial
-from typing import Any
+from psyflow import StimUnit, next_trial_id, resolve_deadline, set_trial_context
 
-from psyflow import StimUnit, next_trial_id, set_trial_context
-
-
-def _deadline_s(value: Any) -> float | None:
-    if isinstance(value, (int, float)):
-        return float(value)
-    if isinstance(value, (list, tuple)) and value:
-        try:
-            return float(max(value))
-        except Exception:
-            return None
-    return None
-
-
-def _parse_condition(condition: Any) -> dict[str, Any]:
-    if isinstance(condition, tuple) and len(condition) >= 5:
-        name, condition_label, stake, condition_id, trial_index, *_ = condition
-        return {
-            "condition": str(name),
-            "condition_label": str(condition_label),
-            "stake": int(stake),
-            "condition_id": str(condition_id),
-            "trial_index": int(trial_index),
-        }
-
-    if isinstance(condition, dict):
-        return {
-            "condition": str(condition.get("condition", "medium_stake")),
-            "condition_label": str(condition.get("condition_label", "medium stake")),
-            "stake": int(condition.get("stake", 20)),
-            "condition_id": str(condition.get("condition_id", "unknown")),
-            "trial_index": int(condition.get("trial_index", 0)),
-        }
-
-    return {
-        "condition": str(condition),
-        "condition_label": str(condition),
-        "stake": 20,
-        "condition_id": str(condition),
-        "trial_index": 0,
-    }
+from .utils import parse_dictator_condition
 
 
 def run_trial(
@@ -58,7 +18,7 @@ def run_trial(
     block_idx=None,
 ):
     """Run one Dictator Game trial."""
-    parsed = _parse_condition(condition)
+    parsed = parse_dictator_condition(condition)
     block_idx_val = int(block_idx) if block_idx is not None else 0
     trial_index = int(parsed["trial_index"]) if parsed["trial_index"] > 0 else 1
     trial_id = next_trial_id()
@@ -88,7 +48,7 @@ def run_trial(
         stake_prompt,
         trial_id=trial_id,
         phase="stake_prompt",
-        deadline_s=_deadline_s(settings.stake_prompt_duration),
+        deadline_s=resolve_deadline(settings.stake_prompt_duration),
         valid_keys=[],
         block_id=trial_data["block_id"],
         condition_id=parsed["condition_id"],
@@ -110,7 +70,7 @@ def run_trial(
         pre_decision_fixation,
         trial_id=trial_id,
         phase="pre_decision_fixation",
-        deadline_s=_deadline_s(settings.pre_decision_fixation_duration),
+        deadline_s=resolve_deadline(settings.pre_decision_fixation_duration),
         valid_keys=[],
         block_id=trial_data["block_id"],
         condition_id=parsed["condition_id"],
@@ -131,7 +91,7 @@ def run_trial(
         decision,
         trial_id=trial_id,
         phase="decision",
-        deadline_s=_deadline_s(settings.decision_duration),
+        deadline_s=resolve_deadline(settings.decision_duration),
         valid_keys=[generous_key, equal_key, selfish_key],
         block_id=trial_data["block_id"],
         condition_id=parsed["condition_id"],
@@ -189,7 +149,7 @@ def run_trial(
         choice_feedback,
         trial_id=trial_id,
         phase="choice_feedback",
-        deadline_s=_deadline_s(settings.choice_feedback_duration),
+        deadline_s=resolve_deadline(settings.choice_feedback_duration),
         valid_keys=[],
         block_id=trial_data["block_id"],
         condition_id=parsed["condition_id"],
@@ -222,7 +182,7 @@ def run_trial(
         outcome_feedback,
         trial_id=trial_id,
         phase="outcome_feedback",
-        deadline_s=_deadline_s(settings.outcome_feedback_duration),
+        deadline_s=resolve_deadline(settings.outcome_feedback_duration),
         valid_keys=[],
         block_id=trial_data["block_id"],
         condition_id=parsed["condition_id"],
@@ -248,7 +208,7 @@ def run_trial(
         iti,
         trial_id=trial_id,
         phase="inter_trial_interval",
-        deadline_s=_deadline_s(settings.iti_duration),
+        deadline_s=resolve_deadline(settings.iti_duration),
         valid_keys=[],
         block_id=trial_data["block_id"],
         condition_id=parsed["condition_id"],

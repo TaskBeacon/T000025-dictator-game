@@ -159,3 +159,33 @@ class Controller:
             )
 
         return record
+
+
+def parse_dictator_condition(condition: Any) -> dict[str, Any]:
+    """Decode a scheduled Dictator Game condition."""
+    if isinstance(condition, tuple) and len(condition) >= 5:
+        name, condition_label, stake, condition_id, trial_index, *_ = condition
+        return {
+            "condition": str(name),
+            "condition_label": str(condition_label),
+            "stake": int(stake),
+            "condition_id": str(condition_id),
+            "trial_index": int(trial_index),
+        }
+
+    if isinstance(condition, dict):
+        return {
+            "condition": str(condition.get("condition", "medium_stake")),
+            "condition_label": str(condition.get("condition_label", "medium stake")),
+            "stake": int(condition.get("stake", 20)),
+            "condition_id": str(condition.get("condition_id", "unknown")),
+            "trial_index": int(condition.get("trial_index", 0)),
+        }
+
+    return {
+        "condition": str(condition),
+        "condition_label": str(condition),
+        "stake": 20,
+        "condition_id": str(condition),
+        "trial_index": 0,
+    }
